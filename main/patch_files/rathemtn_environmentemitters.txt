@@ -1,0 +1,2 @@
+Name^EmitterDefIdx^X^Y^Z^Lifespan
+

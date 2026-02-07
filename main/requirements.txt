@@ -1,0 +1,13 @@
+tkinter
+json
+os
+sys
+hashlib
+threading
+urllib.request
+urllib.error
+pathlib
+datetime
+configparser
+Pillow
+PyInstaller

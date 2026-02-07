@@ -683,25 +683,11 @@
       "description": "highpass_sndbnk.eff"
     },
     {
-      "path": "highpass_sndbnk.eff 2",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpass_sndbnk.eff%202",
-      "size": 75,
-      "md5": "7140b0d990692fbede5475188d43c880",
-      "description": "highpass_sndbnk.eff 2"
-    },
-    {
       "path": "highpass_sounds.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpass_sounds.eff",
       "size": 1092,
       "md5": "f2ef5e890475fef7d14c037013b733a3",
       "description": "highpass_sounds.eff"
-    },
-    {
-      "path": "highpass_sounds.eff 2",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpass_sounds.eff%202",
-      "size": 1092,
-      "md5": "c55a8aa0fac2fe3aa8be9d1f25b7c6f5",
-      "description": "highpass_sounds.eff 2"
     },
     {
       "path": "ikg_chr.s3d",

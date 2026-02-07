@@ -1,6 +1,0 @@
-5
-tar,tar
-dre,dre
-pma,pma
-snk,snk
-mmy,mmy_chr

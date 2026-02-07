@@ -8,10 +8,30 @@ echo ========================================
 echo.
 
 REM Check if Python is installed
+echo Checking for Python installation...
 python --version >nul 2>&1
 if errorlevel 1 (
     echo ERROR: Python is not installed or not in PATH
-    echo Please install Python from python.org
+    echo.
+    echo The build script requires Python to be installed and in your PATH.
+    echo.
+    echo Common solutions:
+    echo 1. Install Python from python.org (recommended)
+    echo    - Download from: https://python.org/downloads/
+    echo    - During installation, make sure to check "Add Python to PATH"
+    echo 2. If Python is installed but not in PATH:
+    echo    - Add Python directory to your system PATH environment variable
+    echo    - Common Python locations:
+    echo      C:\Python313\
+    echo      C:\Users\[username]\AppData\Local\Programs\Python\Python313\
+    echo      C:\Users\[username]\AppData\Local\Microsoft\WindowsApps\
+    echo 3. Verify Python installation:
+    echo    - Open a NEW command prompt
+    echo    - Run: python --version
+    echo    - If this fails, Python is not properly installed or in PATH
+    echo.
+    echo For portable Python solutions, see BUILD_SOLUTION.md
+    echo.
     pause
     exit /b 1
 )

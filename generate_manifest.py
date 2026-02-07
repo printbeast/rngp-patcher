@@ -6,20 +6,35 @@ Automatically creates patch_manifest.json from a folder of files
 import os
 import json
 import hashlib
+import urllib.parse
 from pathlib import Path
 from datetime import datetime
 
+
 def calculate_md5(filepath):
     """Calculate MD5 hash of a file"""
+    # For text files, we want to normalize line endings to LF before hashing
+    # to match what GitHub does with text=auto eol=lf
+    text_extensions = {'.txt', '.md', '.cfg', '.emt', '.map', '.eff', '.ini', '.opt', '.edd', '.zon', '.xmi'}
+    
     hash_md5 = hashlib.md5()
     try:
-        with open(filepath, "rb") as f:
-            for chunk in iter(lambda: f.read(4096), b""):
-                hash_md5.update(chunk)
+        ext = Path(filepath).suffix.lower()
+        if ext in text_extensions:
+            # Read as text, replace CRLF with LF, encode as UTF-8
+            with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
+                content = f.read().replace('\r\n', '\n')
+                hash_md5.update(content.encode('utf-8'))
+        else:
+            # Binary mode for everything else
+            with open(filepath, "rb") as f:
+                for chunk in iter(lambda: f.read(4096), b""):
+                    hash_md5.update(chunk)
         return hash_md5.hexdigest()
     except Exception as e:
         print(f"Error calculating MD5 for {filepath}: {e}")
         return ""
+
 
 def get_file_size(filepath):
     """Get file size in bytes"""
@@ -28,22 +43,23 @@ def get_file_size(filepath):
     except Exception:
         return 0
 
-def generate_manifest(source_folder, base_url_path="patches", version="1.0.0"):
+
+def generate_manifest(source_folder, base_url_path="https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files", version="1.0.0"):
     """
     Generate a patch manifest from a folder of files
     
     Args:
         source_folder: Path to folder containing files to patch
-        base_url_path: Base path in S3 bucket (e.g., "patches" or "patches/v1.0")
+        base_url_path: Base path for downloads (GitHub raw URL)
         version: Version number for this patch
     """
-    
+
     source_path = Path(source_folder)
-    
+
     if not source_path.exists():
         print(f"ERROR: Source folder does not exist: {source_folder}")
         return None
-    
+
     print("=" * 60)
     print("RNGP Patcher - Manifest Generator")
     print("=" * 60)
@@ -51,49 +67,50 @@ def generate_manifest(source_folder, base_url_path="patches", version="1.0.0"):
     print(f"Version: {version}")
     print(f"Base URL Path: {base_url_path}")
     print()
-    
+
     # Collect all files recursively
     files = []
     file_count = 0
     total_size = 0
-    
+
     print("Scanning files...")
     for root, dirs, filenames in os.walk(source_path):
         for filename in filenames:
             file_path = Path(root) / filename
-            
+
             # Get relative path from source folder
             relative_path = file_path.relative_to(source_path)
-            
+
             # Convert Windows paths to forward slashes for consistency
             relative_path_str = str(relative_path).replace("\\", "/")
-            
+
             print(f"  Processing: {relative_path_str}...", end=" ")
-            
+
             # Calculate MD5
             md5_hash = calculate_md5(file_path)
             file_size = get_file_size(file_path)
-            
+
             if md5_hash and file_size > 0:
-                # Build S3 URL path
-                s3_path = f"{base_url_path}/{relative_path_str}"
-                
+                # Build GitHub URL path with proper encoding for spaces
+                encoded_path = urllib.parse.quote(relative_path_str)
+                github_url = f"{base_url_path}/{encoded_path}"
+
                 file_entry = {
                     "path": relative_path_str,
-                    "url": s3_path,
+                    "url": github_url,
                     "size": file_size,
                     "md5": md5_hash,
                     "description": f"{filename}"
                 }
-                
+
                 files.append(file_entry)
                 file_count += 1
                 total_size += file_size
-                
+
                 print(f"OK (MD5: {md5_hash[:8]}...)")
             else:
                 print("SKIPPED (error)")
-    
+
     # Create manifest
     manifest = {
         "version": version,
@@ -106,13 +123,13 @@ def generate_manifest(source_folder, base_url_path="patches", version="1.0.0"):
             f"Total size: {total_size / (1024*1024):.2f} MB"
         ]
     }
-    
+
     # Save manifest
     manifest_path = "patch_manifest.json"
     try:
         with open(manifest_path, "w", encoding="utf-8") as f:
             json.dump(manifest, f, indent=2)
-        
+
         print()
         print("=" * 60)
         print("MANIFEST GENERATED SUCCESSFULLY!")
@@ -127,9 +144,9 @@ def generate_manifest(source_folder, base_url_path="patches", version="1.0.0"):
         print("3. Upload patch_manifest.json to bucket root")
         print("4. Test the patcher!")
         print()
-        
+
         return manifest
-        
+
     except Exception as e:
         print(f"ERROR: Could not save manifest: {e}")
         return None
@@ -140,35 +157,35 @@ def main():
     print("RNGP Patcher - Manifest Generator v1.0")
     print("=" * 40)
     print()
-    
+
     # Get user input
     print("This tool will scan a folder and generate patch_manifest.json")
     print()
-    
-    source_folder = input("Enter path to folder with patch files: ").strip().strip('"')
-    
+
+    source_folder = "patch_files"
+
     if not source_folder:
         print("ERROR: No folder specified")
         input("\nPress Enter to exit...")
         return
-    
+
     print()
-    version = input("Enter patch version (e.g., 1.0.0): ").strip() or "1.0.0"
-    
+    version = "1.0.0"
+
     print()
-    base_url = input("Enter S3 base path (e.g., patches/v1.0): ").strip() or "patches"
-    
+    base_url = "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files"
+
     print()
     print("Generating manifest...")
     print()
-    
+
     manifest = generate_manifest(source_folder, base_url, version)
-    
+
     if manifest:
         print("Done!")
     else:
         print("Failed to generate manifest")
-    
+
     input("\nPress Enter to exit...")
 
 if __name__ == "__main__":

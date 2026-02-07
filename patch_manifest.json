@@ -21,7 +21,7 @@
       "path": "arena.zon",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/arena.zon",
       "size": 235935,
-      "md5": "e66686767a76ad12797616a0c1a6a05e",
+      "md5": "973ca8a312fdf20e3f7ef26f2dee13e4",
       "description": "arena.zon"
     },
     {
@@ -35,7 +35,7 @@
       "path": "arena_chr.txt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/arena_chr.txt",
       "size": 12,
-      "md5": "f26fad538be28d581189b8dfe900af56",
+      "md5": "2db86550463a9ed01945be9dd3fda079",
       "description": "arena_chr.txt"
     },
     {
@@ -91,7 +91,7 @@
       "path": "bazaar_EnvironmentEmitters.txt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/bazaar_EnvironmentEmitters.txt",
       "size": 283,
-      "md5": "a39903bcfa2fe9b5a9a1f69d264c8979",
+      "md5": "c5c88a6f9c395ff754aeeb879932dc39",
       "description": "bazaar_EnvironmentEmitters.txt"
     },
     {
@@ -126,7 +126,7 @@
       "path": "CHANGELOG.md",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/CHANGELOG.md",
       "size": 497,
-      "md5": "e7c878ee66bbf0c386a5b9d19831ca4a",
+      "md5": "44248b655b6dd87f550e6aa3dcfb12fe",
       "description": "CHANGELOG.md"
     },
     {
@@ -147,7 +147,7 @@
       "path": "commons_chr.txt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/commons_chr.txt",
       "size": 43,
-      "md5": "5019b28d9587ef637b66bee9aed57774",
+      "md5": "be993e21e4586f30b644a0fac2e61a05",
       "description": "commons_chr.txt"
     },
     {
@@ -161,35 +161,35 @@
       "path": "commons_sndbnk.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/commons_sndbnk.eff",
       "size": 132,
-      "md5": "224e87c5058a1a1fa46ff56125be83e1",
+      "md5": "a03d85f7fea384ae9186eef41b74004b",
       "description": "commons_sndbnk.eff"
     },
     {
       "path": "commons_sounds.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/commons_sounds.eff",
       "size": 1848,
-      "md5": "76866dbd68ef1754d5f39979674de3f7",
+      "md5": "f593821c4db262ce5f6e94cdb99f5570",
       "description": "commons_sounds.eff"
     },
     {
       "path": "cshome.cfg",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/cshome.cfg",
       "size": 588,
-      "md5": "8ff20028fd2cbe0a93bae649cf5da90c",
+      "md5": "5544d973ba96631bf2dffcd543c4fee9",
       "description": "cshome.cfg"
     },
     {
       "path": "cshome.emt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/cshome.emt",
       "size": 84,
-      "md5": "5d54995d51ef90e160a5108a580b46aa",
+      "md5": "9d52758bb15219c44e3f7571c3190732",
       "description": "cshome.emt"
     },
     {
       "path": "cshome.map",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/cshome.map",
       "size": 38791,
-      "md5": "9621d07178ebb8b1d2eb179bad0d9766",
+      "md5": "db918cbfa73ba153c615d5d3accb2f53",
       "description": "cshome.map"
     },
     {
@@ -231,7 +231,7 @@
       "path": "cshome_sndbnk.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/cshome_sndbnk.eff",
       "size": 12,
-      "md5": "8a6a53d71d4f08cfb537624a40a9b15a",
+      "md5": "bb64eab4b4b0c987cd556ee2a9185a96",
       "description": "cshome_sndbnk.eff"
     },
     {
@@ -287,7 +287,7 @@
       "path": "ecommons_chr.txt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/ecommons_chr.txt",
       "size": 52,
-      "md5": "fa4f261a7b30f5c552f6d08a53a797f4",
+      "md5": "3464aea36d181d3b4f0ff79d60b51bba",
       "description": "ecommons_chr.txt"
     },
     {
@@ -301,14 +301,14 @@
       "path": "ecommons_sndbnk.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/ecommons_sndbnk.eff",
       "size": 141,
-      "md5": "9aaa152c861b87bd556e20bfd67c8594",
+      "md5": "cf864c42a0a461f658943268fbe5be67",
       "description": "ecommons_sndbnk.eff"
     },
     {
       "path": "ecommons_sounds.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/ecommons_sounds.eff",
       "size": 1512,
-      "md5": "ffd89a1e0b8ba32252777e2438b4978d",
+      "md5": "bd7a77dbac8c6f0e372fd524106151bb",
       "description": "ecommons_sounds.eff"
     },
     {
@@ -329,14 +329,14 @@
       "path": "eqhost.txt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/eqhost.txt",
       "size": 78,
-      "md5": "71bb9487df883d6eab8174ad2f4a92c7",
+      "md5": "205e44f72084f90539f65e6760ce5856",
       "description": "eqhost.txt"
     },
     {
       "path": "eqOptions1.opt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/eqOptions1.opt",
       "size": 404,
-      "md5": "34c9a6b3adf8bd26c4ddfde11edfab95",
+      "md5": "d0061642dbfb8505d9480c84d0ca72b3",
       "description": "eqOptions1.opt"
     },
     {
@@ -364,7 +364,7 @@
       "path": "freporte.xmi",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freporte.xmi",
       "size": 47164,
-      "md5": "38ae5478f530e9295a9189e270d56cdf",
+      "md5": "a88f4a1f33c4200e6e822b915c2ae9e6",
       "description": "freporte.xmi"
     },
     {
@@ -378,7 +378,7 @@
       "path": "freporte_chr.txt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freporte_chr.txt",
       "size": 122,
-      "md5": "443b28c71b28eb9dd5d9c7e734ccbaf0",
+      "md5": "c54d461ba8114d9119297a81e507b18a",
       "description": "freporte_chr.txt"
     },
     {
@@ -392,14 +392,14 @@
       "path": "freporte_sndbnk.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freporte_sndbnk.eff",
       "size": 132,
-      "md5": "801e92dbec711f7ae070655529fe7aa5",
+      "md5": "e1754fbdbf49a97f86864bb1ec4eb217",
       "description": "freporte_sndbnk.eff"
     },
     {
       "path": "freporte_sounds.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freporte_sounds.eff",
       "size": 2016,
-      "md5": "a3ff8c1cf31f5daf699ca437abb5f858",
+      "md5": "48f2451676606db344a0bdda9eae6764",
       "description": "freporte_sounds.eff"
     },
     {
@@ -413,7 +413,7 @@
       "path": "freportn_assets.txt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freportn_assets.txt",
       "size": 14,
-      "md5": "6959929bc0c24d771fae4fa8e6df0f37",
+      "md5": "4c07e2239a903cf9f76a970f3c7d8eb8",
       "description": "freportn_assets.txt"
     },
     {
@@ -448,7 +448,7 @@
       "path": "freportw_chr.txt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freportw_chr.txt",
       "size": 21,
-      "md5": "ea3d3d89f12ee73394a03c8e0ad60c5c",
+      "md5": "61780a1cd72f26d74213f31f7e28800b",
       "description": "freportw_chr.txt"
     },
     {
@@ -539,7 +539,7 @@
       "path": "hateplane_chr.txt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/hateplane_chr.txt",
       "size": 12,
-      "md5": "b9df18ae042d7b43c16a1f49191f2c2e",
+      "md5": "21dc1fccd1da3405fda68ad2b0f7ea83",
       "description": "hateplane_chr.txt"
     },
     {
@@ -553,14 +553,14 @@
       "path": "hateplane_sndbnk.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/hateplane_sndbnk.eff",
       "size": 150,
-      "md5": "31649223a4e2cbdea2d5985266b10258",
+      "md5": "6cdc7f01cc05887e9c44ef11af1518c8",
       "description": "hateplane_sndbnk.eff"
     },
     {
       "path": "hateplane_sounds.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/hateplane_sounds.eff",
       "size": 1344,
-      "md5": "bd93444d7302f731960ba6fd29f522bb",
+      "md5": "54396cd29cea82ecc70442a6138efbb1",
       "description": "hateplane_sounds.eff"
     },
     {
@@ -602,7 +602,7 @@
       "path": "highkeep_sounds.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highkeep_sounds.eff",
       "size": 420,
-      "md5": "0731e07281251eec6a1868a420fe88f4",
+      "md5": "4238eaa893df0ebc07b9931da402be31",
       "description": "highkeep_sounds.eff"
     },
     {
@@ -616,7 +616,7 @@
       "path": "highpasshold.emt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpasshold.emt",
       "size": 12509,
-      "md5": "48c46ad29def0fb68d85ffdadaca84f6",
+      "md5": "f949bc12f23281ff2b3b41fc20c5b333",
       "description": "highpasshold.emt"
     },
     {
@@ -651,14 +651,14 @@
       "path": "highpasshold_sndbnk.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpasshold_sndbnk.eff",
       "size": 75,
-      "md5": "7140b0d990692fbede5475188d43c880",
+      "md5": "f28c96d330410ba3c3b224ba90fa2325",
       "description": "highpasshold_sndbnk.eff"
     },
     {
       "path": "highpasshold_sounds.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpasshold_sounds.eff",
       "size": 1092,
-      "md5": "c55a8aa0fac2fe3aa8be9d1f25b7c6f5",
+      "md5": "f2ef5e890475fef7d14c037013b733a3",
       "description": "highpasshold_sounds.eff"
     },
     {
@@ -679,12 +679,12 @@
       "path": "highpass_sndbnk.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpass_sndbnk.eff",
       "size": 75,
-      "md5": "7140b0d990692fbede5475188d43c880",
+      "md5": "f28c96d330410ba3c3b224ba90fa2325",
       "description": "highpass_sndbnk.eff"
     },
     {
       "path": "highpass_sndbnk.eff 2",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpass_sndbnk.eff 2",
+      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpass_sndbnk.eff%202",
       "size": 75,
       "md5": "7140b0d990692fbede5475188d43c880",
       "description": "highpass_sndbnk.eff 2"
@@ -693,12 +693,12 @@
       "path": "highpass_sounds.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpass_sounds.eff",
       "size": 1092,
-      "md5": "c55a8aa0fac2fe3aa8be9d1f25b7c6f5",
+      "md5": "f2ef5e890475fef7d14c037013b733a3",
       "description": "highpass_sounds.eff"
     },
     {
       "path": "highpass_sounds.eff 2",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpass_sounds.eff 2",
+      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpass_sounds.eff%202",
       "size": 1092,
       "md5": "c55a8aa0fac2fe3aa8be9d1f25b7c6f5",
       "description": "highpass_sounds.eff 2"
@@ -735,7 +735,7 @@
       "path": "lavastorm.xmi",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/lavastorm.xmi",
       "size": 18874,
-      "md5": "2e299a82ecc33d28ca311dfda30f9dba",
+      "md5": "4fc740c4786dc7d3bae6ddbe44f1c276",
       "description": "lavastorm.xmi"
     },
     {
@@ -756,14 +756,14 @@
       "path": "lavastorm_sndbnk.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/lavastorm_sndbnk.eff",
       "size": 210,
-      "md5": "6794079ffb356e98c20a9d57efd3cba9",
+      "md5": "b636d39106b9aeaee8693c45dcc6a425",
       "description": "lavastorm_sndbnk.eff"
     },
     {
       "path": "lavastorm_sounds.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/lavastorm_sounds.eff",
       "size": 4872,
-      "md5": "ee55f537f39e2befdf94b38f0f3296c6",
+      "md5": "a3f5691c9fa421d2118a73c1a73c351b",
       "description": "lavastorm_sounds.eff"
     },
     {
@@ -833,7 +833,7 @@
       "path": "nro.emt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/nro.emt",
       "size": 3776,
-      "md5": "8325922879c91459d4ad6fdf9f3ffd15",
+      "md5": "25e13434691ea4c38df07d97dddc59cf",
       "description": "nro.emt"
     },
     {
@@ -847,7 +847,7 @@
       "path": "nro.xmi",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/nro.xmi",
       "size": 26548,
-      "md5": "4e33c008f2e337be58b1d410c97bd58d",
+      "md5": "5b983ca5aa716929749e8be10c709df0",
       "description": "nro.xmi"
     },
     {
@@ -875,7 +875,7 @@
       "path": "nro_chr.txt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/nro_chr.txt",
       "size": 84,
-      "md5": "38f1758f44145eb9b0b20c715cb7dd40",
+      "md5": "d85e5a5df6c2d174fabbab0809f9bf42",
       "description": "nro_chr.txt"
     },
     {
@@ -896,14 +896,14 @@
       "path": "nro_sndbnk.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/nro_sndbnk.eff",
       "size": 137,
-      "md5": "0df74ca8d75b5cc4b08268961ef1f60e",
+      "md5": "559cff8353704a5be74e784c2b6e603c",
       "description": "nro_sndbnk.eff"
     },
     {
       "path": "nro_sounds.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/nro_sounds.eff",
       "size": 2940,
-      "md5": "cb10c84f336986d91e926e4d183bbfb5",
+      "md5": "114d7bd65f504b765d8395c7809d0cc5",
       "description": "nro_sounds.eff"
     },
     {
@@ -938,14 +938,14 @@
       "path": "qeytoqrg_environmentemitters.txt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/qeytoqrg_environmentemitters.txt",
       "size": 35,
-      "md5": "b33d5f5e9722adc16b68f44bef38d02a",
+      "md5": "c07750dfba06c4664c1e387c5dec49e1",
       "description": "qeytoqrg_environmentemitters.txt"
     },
     {
       "path": "rathemtn_environmentemitters.txt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/rathemtn_environmentemitters.txt",
       "size": 37,
-      "md5": "500b0749bacbf07307c95bd507148dad",
+      "md5": "47679479bc6bf1fcf9b9257141f75915",
       "description": "rathemtn_environmentemitters.txt"
     },
     {
@@ -959,7 +959,7 @@
       "path": "README.md",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/README.md",
       "size": 858,
-      "md5": "6b04d365d7387f0f24271c5ff258fc14",
+      "md5": "582e5d513395b03d3f193b4c1d38a5f3",
       "description": "README.md"
     },
     {
@@ -980,7 +980,7 @@
       "path": "SkillCaps.txt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SkillCaps.txt",
       "size": 671030,
-      "md5": "ad84159afc718a056095c2d7f88dae52",
+      "md5": "753f0deee053aea752422ab3a075f0b3",
       "description": "SkillCaps.txt"
     },
     {
@@ -1036,7 +1036,7 @@
       "path": "tox.xmi",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/tox.xmi",
       "size": 25594,
-      "md5": "c5a1110020af88c7a700c906f396869e",
+      "md5": "c1dd00b8e282d7b5a8955a3a94e04bbf",
       "description": "tox.xmi"
     },
     {
@@ -1050,7 +1050,7 @@
       "path": "tox_chr.txt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/tox_chr.txt",
       "size": 28,
-      "md5": "0c63dd70aacde6ee993cdc7d960e037f",
+      "md5": "0eca61cf4bdba2391a4e220a97a2787b",
       "description": "tox_chr.txt"
     },
     {
@@ -1064,14 +1064,14 @@
       "path": "tox_sndbnk.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/tox_sndbnk.eff",
       "size": 205,
-      "md5": "0ccd3dd71e996da0d3c81a4f8b365503",
+      "md5": "c13e9205cdd7eab212deaee168f58155",
       "description": "tox_sndbnk.eff"
     },
     {
       "path": "tox_sounds.eff",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/tox_sounds.eff",
       "size": 2604,
-      "md5": "424c1494b661f9790b6a5aba34f10cd5",
+      "md5": "177dc797fd0dc0dc8bea5f25ebae7488",
       "description": "tox_sounds.eff"
     },
     {
@@ -1155,7 +1155,7 @@
       "path": "Maps/highpasshold.txt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/Maps/highpasshold.txt",
       "size": 145000,
-      "md5": "2da4c8f300e33212d8bc9c95d2c4cbea",
+      "md5": "b4c9016a6a1ca2ac352a7b8613f95138",
       "description": "highpasshold.txt"
     },
     {
@@ -1176,7 +1176,7 @@
       "path": "Resources/actoremittersnew.edd",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/Resources/actoremittersnew.edd",
       "size": 127304,
-      "md5": "83b380c31132e00c894f9598c59737ce",
+      "md5": "ab78cdcf982ed47b5f2174375a0c9fb0",
       "description": "actoremittersnew.edd"
     },
     {

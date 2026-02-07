@@ -31,13 +31,13 @@ def get_file_size(filepath):
         return 0
 
 
-def generate_manifest(source_folder, base_url_path="patches", version="1.0.0"):
+def generate_manifest(source_folder, base_url_path="https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files", version="1.0.0"):
     """
     Generate a patch manifest from a folder of files
     
     Args:
         source_folder: Path to folder containing files to patch
-        base_url_path: Base path in S3 bucket (e.g., "patches" or "patches/v1.0")
+        base_url_path: Base path for downloads (GitHub raw URL)
         version: Version number for this patch
     """
 
@@ -78,12 +78,12 @@ def generate_manifest(source_folder, base_url_path="patches", version="1.0.0"):
             file_size = get_file_size(file_path)
 
             if md5_hash and file_size > 0:
-                # Build S3 URL path
-                s3_path = f"{base_url_path}/{relative_path_str}"
+                # Build GitHub URL path
+                github_url = f"{base_url_path}/{relative_path_str}"
 
                 file_entry = {
                     "path": relative_path_str,
-                    "url": s3_path,
+                    "url": github_url,
                     "size": file_size,
                     "md5": md5_hash,
                     "description": f"{filename}"
@@ -159,7 +159,7 @@ def main():
     version = "1.0.0"
 
     print()
-    base_url = "patches"
+    base_url = "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files"
 
     print()
     print("Generating manifest...")

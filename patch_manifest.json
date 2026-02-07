@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "patch_date": "2024-02-07",
+  "description": "RNGP Server Patch - Random Loot Progression Updates",
+  "files": [
+    {
+      "path": "eqgame.exe",
+      "url": "patches/eqgame.exe",
+      "size": 5242880,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "description": "Main game executable"
+    },
+    {
+      "path": "dbg.txt",
+      "url": "patches/dbg.txt",
+      "size": 1024,
+      "md5": "098f6bcd4621d373cade4e832627b4f6",
+      "description": "Server connection configuration"
+    },
+    {
+      "path": "UI/custom_ui.xml",
+      "url": "patches/UI/custom_ui.xml",
+      "size": 2048,
+      "md5": "5d41402abc4b2a76b9719d911017c592",
+      "description": "Custom UI elements"
+    },
+    {
+      "path": "resources/items.txt",
+      "url": "patches/resources/items.txt",
+      "size": 10240,
+      "md5": "7d793037a0760186574b0282f2f435e7",
+      "description": "Item database updates"
+    }
+  ],
+  "notes": [
+    "This patch includes new random loot items",
+    "Updated prestige system (Oracle of Rebirth)",
+    "Bug fixes and performance improvements"
+  ]
+}

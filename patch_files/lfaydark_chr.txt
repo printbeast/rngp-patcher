@@ -1,0 +1,15 @@
+14
+cst,cst
+dke,dke
+tar,tar
+mmy,mmy_chr
+dru,hateplane_chr
+rea,karnor_chr
+grg,fearplane_chr
+cub,fearplane_chr
+ghu,commons_chr
+mim,mim_chr
+dvm,mistmoore_chr
+tem,tem_cht
+ngm,neriaka_chr
+den,potimeb_chr

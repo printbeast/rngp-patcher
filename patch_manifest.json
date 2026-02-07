@@ -1,1958 +1,1958 @@
 {
   "version": "1.0.0",
   "patch_date": "2026-02-07",
-  "description": "RNGP Server Patch - Random Loot Progression Updates",
+  "description": "RNGP Server Patch v1.0.0",
   "files": [
     {
-      "path": "patch_files/all_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/all_chr.s3d",
+      "path": "all_chr.s3d",
+      "url": "patches/all_chr.s3d",
       "size": 112151,
       "md5": "1062ba7225870667ec0e0701e446a51f",
       "description": "all_chr.s3d"
     },
     {
-      "path": "patch_files/arena.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/arena.s3d",
+      "path": "arena.s3d",
+      "url": "patches/arena.s3d",
       "size": 140541,
       "md5": "e7d7b688bbe5899eeb2f282f9e73044c",
       "description": "arena.s3d"
     },
     {
-      "path": "patch_files/arena.zon",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/arena.zon",
+      "path": "arena.zon",
+      "url": "patches/arena.zon",
       "size": 235935,
       "md5": "e66686767a76ad12797616a0c1a6a05e",
       "description": "arena.zon"
     },
     {
-      "path": "patch_files/arena_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/arena_chr.s3d",
+      "path": "arena_chr.s3d",
+      "url": "patches/arena_chr.s3d",
       "size": 2456397,
       "md5": "34c9c3c9eacf5b5747f15b526ab8f0bd",
       "description": "arena_chr.s3d"
     },
     {
-      "path": "patch_files/arena_chr.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/arena_chr.txt",
+      "path": "arena_chr.txt",
+      "url": "patches/arena_chr.txt",
       "size": 12,
       "md5": "f26fad538be28d581189b8dfe900af56",
       "description": "arena_chr.txt"
     },
     {
-      "path": "patch_files/arena_obj.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/arena_obj.s3d",
+      "path": "arena_obj.s3d",
+      "url": "patches/arena_obj.s3d",
       "size": 244064,
       "md5": "ee5813964d094a9cdbf72e5a2611e2fb",
       "description": "arena_obj.s3d"
     },
     {
-      "path": "patch_files/bat_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/bat_chr.s3d",
+      "path": "bat_chr.s3d",
+      "url": "patches/bat_chr.s3d",
       "size": 65079,
       "md5": "b77c7df85108fe79b9aab99d048ddb50",
       "description": "bat_chr.s3d"
     },
     {
-      "path": "patch_files/bazaar.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/bazaar.s3d",
+      "path": "bazaar.s3d",
+      "url": "patches/bazaar.s3d",
       "size": 712539,
       "md5": "e588301f45b375ce812e7a12276a6de5",
       "description": "bazaar.s3d"
     },
     {
-      "path": "patch_files/bazaar.wld.txc",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/bazaar.wld.txc",
+      "path": "bazaar.wld.txc",
+      "url": "patches/bazaar.wld.txc",
       "size": 779488,
       "md5": "0227c98269e5298a78f83f7a0490a0df",
       "description": "bazaar.wld.txc"
     },
     {
-      "path": "patch_files/bazaar_assets.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/bazaar_assets.txt",
+      "path": "bazaar_assets.txt",
+      "url": "patches/bazaar_assets.txt",
       "size": 22,
       "md5": "818ef388d6fd1310d247685afaf529ae",
       "description": "bazaar_assets.txt"
     },
     {
-      "path": "patch_files/bazaar_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/bazaar_chr.s3d",
+      "path": "bazaar_chr.s3d",
+      "url": "patches/bazaar_chr.s3d",
       "size": 254493,
       "md5": "ebaeae84fdf47af5fbde59ed24064df3",
       "description": "bazaar_chr.s3d"
     },
     {
-      "path": "patch_files/bazaar_chr.wld.txc",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/bazaar_chr.wld.txc",
+      "path": "bazaar_chr.wld.txc",
+      "url": "patches/bazaar_chr.wld.txc",
       "size": 347416,
       "md5": "bc397b617dda2ebc16d445e0ef40885c",
       "description": "bazaar_chr.wld.txc"
     },
     {
-      "path": "patch_files/bazaar_EnvironmentEmitters.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/bazaar_EnvironmentEmitters.txt",
+      "path": "bazaar_EnvironmentEmitters.txt",
+      "url": "patches/bazaar_EnvironmentEmitters.txt",
       "size": 283,
       "md5": "a39903bcfa2fe9b5a9a1f69d264c8979",
       "description": "bazaar_EnvironmentEmitters.txt"
     },
     {
-      "path": "patch_files/bazaar_obj.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/bazaar_obj.s3d",
+      "path": "bazaar_obj.s3d",
+      "url": "patches/bazaar_obj.s3d",
       "size": 2653246,
       "md5": "d9618ea0b9bc8d1c9ff73842bcf2a6db",
       "description": "bazaar_obj.s3d"
     },
     {
-      "path": "patch_files/bazaar_obj.wld.txc",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/bazaar_obj.wld.txc",
+      "path": "bazaar_obj.wld.txc",
+      "url": "patches/bazaar_obj.wld.txc",
       "size": 5114704,
       "md5": "46e1e8fad85f1fba3b0ebf716977813f",
       "description": "bazaar_obj.wld.txc"
     },
     {
-      "path": "patch_files/beh_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/beh_chr.s3d",
+      "path": "beh_chr.s3d",
+      "url": "patches/beh_chr.s3d",
       "size": 43012,
       "md5": "db791daea40736382986ef2b4e978090",
       "description": "beh_chr.s3d"
     },
     {
-      "path": "patch_files/bet_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/bet_chr.s3d",
+      "path": "bet_chr.s3d",
+      "url": "patches/bet_chr.s3d",
       "size": 81232,
       "md5": "6b951b2979d6051f9d3077233f72c9ed",
       "description": "bet_chr.s3d"
     },
     {
-      "path": "patch_files/CHANGELOG.md",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/CHANGELOG.md",
+      "path": "CHANGELOG.md",
+      "url": "patches/CHANGELOG.md",
       "size": 497,
       "md5": "e7c878ee66bbf0c386a5b9d19831ca4a",
       "description": "CHANGELOG.md"
     },
     {
-      "path": "patch_files/commons.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/commons.s3d",
+      "path": "commons.s3d",
+      "url": "patches/commons.s3d",
       "size": 2118585,
       "md5": "7110343af837f4033308c2dad1a90237",
       "description": "commons.s3d"
     },
     {
-      "path": "patch_files/commons_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/commons_chr.s3d",
+      "path": "commons_chr.s3d",
+      "url": "patches/commons_chr.s3d",
       "size": 2521829,
       "md5": "1f313056ace49d6d94f276490707f4c4",
       "description": "commons_chr.s3d"
     },
     {
-      "path": "patch_files/commons_chr.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/commons_chr.txt",
+      "path": "commons_chr.txt",
+      "url": "patches/commons_chr.txt",
       "size": 43,
       "md5": "5019b28d9587ef637b66bee9aed57774",
       "description": "commons_chr.txt"
     },
     {
-      "path": "patch_files/commons_obj.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/commons_obj.s3d",
+      "path": "commons_obj.s3d",
+      "url": "patches/commons_obj.s3d",
       "size": 2775232,
       "md5": "9964982363208908294c35e479871b02",
       "description": "commons_obj.s3d"
     },
     {
-      "path": "patch_files/commons_sndbnk.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/commons_sndbnk.eff",
+      "path": "commons_sndbnk.eff",
+      "url": "patches/commons_sndbnk.eff",
       "size": 132,
       "md5": "224e87c5058a1a1fa46ff56125be83e1",
       "description": "commons_sndbnk.eff"
     },
     {
-      "path": "patch_files/commons_sounds.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/commons_sounds.eff",
+      "path": "commons_sounds.eff",
+      "url": "patches/commons_sounds.eff",
       "size": 1848,
       "md5": "76866dbd68ef1754d5f39979674de3f7",
       "description": "commons_sounds.eff"
     },
     {
-      "path": "patch_files/cshome.cfg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/cshome.cfg",
+      "path": "cshome.cfg",
+      "url": "patches/cshome.cfg",
       "size": 588,
       "md5": "8ff20028fd2cbe0a93bae649cf5da90c",
       "description": "cshome.cfg"
     },
     {
-      "path": "patch_files/cshome.emt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/cshome.emt",
+      "path": "cshome.emt",
+      "url": "patches/cshome.emt",
       "size": 84,
       "md5": "5d54995d51ef90e160a5108a580b46aa",
       "description": "cshome.emt"
     },
     {
-      "path": "patch_files/cshome.map",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/cshome.map",
+      "path": "cshome.map",
+      "url": "patches/cshome.map",
       "size": 38791,
       "md5": "9621d07178ebb8b1d2eb179bad0d9766",
       "description": "cshome.map"
     },
     {
-      "path": "patch_files/cshome.mp3",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/cshome.mp3",
+      "path": "cshome.mp3",
+      "url": "patches/cshome.mp3",
       "size": 3573760,
       "md5": "4ffe567daf10152d8837619509b48dbd",
       "description": "cshome.mp3"
     },
     {
-      "path": "patch_files/cshome.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/cshome.s3d",
+      "path": "cshome.s3d",
+      "url": "patches/cshome.s3d",
       "size": 6744363,
       "md5": "79c5d6e51f1f64e63a44a7ef04cc564f",
       "description": "cshome.s3d"
     },
     {
-      "path": "patch_files/cshome.wld.txc",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/cshome.wld.txc",
+      "path": "cshome.wld.txc",
+      "url": "patches/cshome.wld.txc",
       "size": 1410392,
       "md5": "d04835cad680395e01440ce6ebed4646",
       "description": "cshome.wld.txc"
     },
     {
-      "path": "patch_files/cshome_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/cshome_chr.s3d",
+      "path": "cshome_chr.s3d",
+      "url": "patches/cshome_chr.s3d",
       "size": 125,
       "md5": "b5c43151923d18446a5b94be08d1a7c5",
       "description": "cshome_chr.s3d"
     },
     {
-      "path": "patch_files/cshome_obj.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/cshome_obj.s3d",
+      "path": "cshome_obj.s3d",
+      "url": "patches/cshome_obj.s3d",
       "size": 125,
       "md5": "a2ef431f105607d3e16cc83e97b22a34",
       "description": "cshome_obj.s3d"
     },
     {
-      "path": "patch_files/cshome_sndbnk.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/cshome_sndbnk.eff",
+      "path": "cshome_sndbnk.eff",
+      "url": "patches/cshome_sndbnk.eff",
       "size": 12,
       "md5": "8a6a53d71d4f08cfb537624a40a9b15a",
       "description": "cshome_sndbnk.eff"
     },
     {
-      "path": "patch_files/dbstr_us.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/dbstr_us.txt",
+      "path": "dbstr_us.txt",
+      "url": "patches/dbstr_us.txt",
       "size": 6323565,
       "md5": "3f09faea9b144b7c4c48d6b0b0c4dae1",
       "description": "dbstr_us.txt"
     },
     {
-      "path": "patch_files/deaththeme.mp3",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/deaththeme.mp3",
+      "path": "deaththeme.mp3",
+      "url": "patches/deaththeme.mp3",
       "size": 345698,
       "md5": "cfbf9cd0fa7b02ce332c7bf79c43ef72",
       "description": "deaththeme.mp3"
     },
     {
-      "path": "patch_files/dr2_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/dr2_chr.s3d",
+      "path": "dr2_chr.s3d",
+      "url": "patches/dr2_chr.s3d",
       "size": 782670,
       "md5": "21d2b3d3c706ba79f70370d31beb7780",
       "description": "dr2_chr.s3d"
     },
     {
-      "path": "patch_files/dra_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/dra_chr.s3d",
+      "path": "dra_chr.s3d",
+      "url": "patches/dra_chr.s3d",
       "size": 1045085,
       "md5": "542ce20e49c01cf6265d4e1a566aa8dd",
       "description": "dra_chr.s3d"
     },
     {
-      "path": "patch_files/drk_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/drk_chr.s3d",
+      "path": "drk_chr.s3d",
+      "url": "patches/drk_chr.s3d",
       "size": 145564,
       "md5": "bf636e9e4dfafa5bf0a181a6c5674bf4",
       "description": "drk_chr.s3d"
     },
     {
-      "path": "patch_files/ecommons.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/ecommons.s3d",
+      "path": "ecommons.s3d",
+      "url": "patches/ecommons.s3d",
       "size": 1242130,
       "md5": "f21db0ef2f5ba2ed0febf685b3d26ecd",
       "description": "ecommons.s3d"
     },
     {
-      "path": "patch_files/ecommons_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/ecommons_chr.s3d",
+      "path": "ecommons_chr.s3d",
+      "url": "patches/ecommons_chr.s3d",
       "size": 2561160,
       "md5": "bfc7034faff600f91f2b15f42a7a7b16",
       "description": "ecommons_chr.s3d"
     },
     {
-      "path": "patch_files/ecommons_chr.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/ecommons_chr.txt",
+      "path": "ecommons_chr.txt",
+      "url": "patches/ecommons_chr.txt",
       "size": 52,
       "md5": "fa4f261a7b30f5c552f6d08a53a797f4",
       "description": "ecommons_chr.txt"
     },
     {
-      "path": "patch_files/ecommons_obj.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/ecommons_obj.s3d",
+      "path": "ecommons_obj.s3d",
+      "url": "patches/ecommons_obj.s3d",
       "size": 2085429,
       "md5": "e308cf15b0f7297c772be19b841f5ca7",
       "description": "ecommons_obj.s3d"
     },
     {
-      "path": "patch_files/ecommons_sndbnk.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/ecommons_sndbnk.eff",
+      "path": "ecommons_sndbnk.eff",
+      "url": "patches/ecommons_sndbnk.eff",
       "size": 141,
       "md5": "9aaa152c861b87bd556e20bfd67c8594",
       "description": "ecommons_sndbnk.eff"
     },
     {
-      "path": "patch_files/ecommons_sounds.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/ecommons_sounds.eff",
+      "path": "ecommons_sounds.eff",
+      "url": "patches/ecommons_sounds.eff",
       "size": 1512,
       "md5": "ffd89a1e0b8ba32252777e2438b4978d",
       "description": "ecommons_sounds.eff"
     },
     {
-      "path": "patch_files/eerie2.mp3",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/eerie2.mp3",
+      "path": "eerie2.mp3",
+      "url": "patches/eerie2.mp3",
       "size": 2298530,
       "md5": "c8d38be639ae32780bf15892b51c18b4",
       "description": "eerie2.mp3"
     },
     {
-      "path": "patch_files/ele_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/ele_chr.s3d",
+      "path": "ele_chr.s3d",
+      "url": "patches/ele_chr.s3d",
       "size": 113729,
       "md5": "2044df9bf1e8f48d7f4c845a8e19d3c2",
       "description": "ele_chr.s3d"
     },
     {
-      "path": "patch_files/eqhost.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/eqhost.txt",
+      "path": "eqhost.txt",
+      "url": "patches/eqhost.txt",
       "size": 78,
       "md5": "71bb9487df883d6eab8174ad2f4a92c7",
       "description": "eqhost.txt"
     },
     {
-      "path": "patch_files/eqOptions1.opt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/eqOptions1.opt",
+      "path": "eqOptions1.opt",
+      "url": "patches/eqOptions1.opt",
       "size": 404,
       "md5": "34c9a6b3adf8bd26c4ddfde11edfab95",
       "description": "eqOptions1.opt"
     },
     {
-      "path": "patch_files/eqtheme.mp3",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/eqtheme.mp3",
+      "path": "eqtheme.mp3",
+      "url": "patches/eqtheme.mp3",
       "size": 3529634,
       "md5": "6e0163c57dc3476fa1c96d97bcc77e5b",
       "description": "eqtheme.mp3"
     },
     {
-      "path": "patch_files/fis_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/fis_chr.s3d",
+      "path": "fis_chr.s3d",
+      "url": "patches/fis_chr.s3d",
       "size": 10234,
       "md5": "45cb8995f11b8928a092715394e89211",
       "description": "fis_chr.s3d"
     },
     {
-      "path": "patch_files/freporte.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freporte.s3d",
+      "path": "freporte.s3d",
+      "url": "patches/freporte.s3d",
       "size": 6351260,
       "md5": "c937883be296780bc611aba8a3d8f4c3",
       "description": "freporte.s3d"
     },
     {
-      "path": "patch_files/freporte.xmi",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freporte.xmi",
+      "path": "freporte.xmi",
+      "url": "patches/freporte.xmi",
       "size": 47164,
       "md5": "38ae5478f530e9295a9189e270d56cdf",
       "description": "freporte.xmi"
     },
     {
-      "path": "patch_files/freporte_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freporte_chr.s3d",
+      "path": "freporte_chr.s3d",
+      "url": "patches/freporte_chr.s3d",
       "size": 2441317,
       "md5": "8e425c90b81a9716a96aadf6a212a2f8",
       "description": "freporte_chr.s3d"
     },
     {
-      "path": "patch_files/freporte_chr.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freporte_chr.txt",
+      "path": "freporte_chr.txt",
+      "url": "patches/freporte_chr.txt",
       "size": 122,
       "md5": "443b28c71b28eb9dd5d9c7e734ccbaf0",
       "description": "freporte_chr.txt"
     },
     {
-      "path": "patch_files/freporte_obj.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freporte_obj.s3d",
+      "path": "freporte_obj.s3d",
+      "url": "patches/freporte_obj.s3d",
       "size": 2423582,
       "md5": "ebf422ba34fbbb26abf8ec225ff6820f",
       "description": "freporte_obj.s3d"
     },
     {
-      "path": "patch_files/freporte_sndbnk.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freporte_sndbnk.eff",
+      "path": "freporte_sndbnk.eff",
+      "url": "patches/freporte_sndbnk.eff",
       "size": 132,
       "md5": "801e92dbec711f7ae070655529fe7aa5",
       "description": "freporte_sndbnk.eff"
     },
     {
-      "path": "patch_files/freporte_sounds.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freporte_sounds.eff",
+      "path": "freporte_sounds.eff",
+      "url": "patches/freporte_sounds.eff",
       "size": 2016,
       "md5": "a3ff8c1cf31f5daf699ca437abb5f858",
       "description": "freporte_sounds.eff"
     },
     {
-      "path": "patch_files/freportn.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freportn.s3d",
+      "path": "freportn.s3d",
+      "url": "patches/freportn.s3d",
       "size": 6376976,
       "md5": "61033d5772ec1452dea7370f7a70b8bd",
       "description": "freportn.s3d"
     },
     {
-      "path": "patch_files/freportn_assets.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freportn_assets.txt",
+      "path": "freportn_assets.txt",
+      "url": "patches/freportn_assets.txt",
       "size": 14,
       "md5": "6959929bc0c24d771fae4fa8e6df0f37",
       "description": "freportn_assets.txt"
     },
     {
-      "path": "patch_files/freportn_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freportn_chr.s3d",
+      "path": "freportn_chr.s3d",
+      "url": "patches/freportn_chr.s3d",
       "size": 1809347,
       "md5": "94765b4271feb306038f41325510e55e",
       "description": "freportn_chr.s3d"
     },
     {
-      "path": "patch_files/freportn_obj.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freportn_obj.s3d",
+      "path": "freportn_obj.s3d",
+      "url": "patches/freportn_obj.s3d",
       "size": 2668672,
       "md5": "025cca321ecf7ee284709bb93a6c4314",
       "description": "freportn_obj.s3d"
     },
     {
-      "path": "patch_files/freportw.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freportw.s3d",
+      "path": "freportw.s3d",
+      "url": "patches/freportw.s3d",
       "size": 4821055,
       "md5": "a1aab6049fe4295466edd40d25465d40",
       "description": "freportw.s3d"
     },
     {
-      "path": "patch_files/freportw_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freportw_chr.s3d",
+      "path": "freportw_chr.s3d",
+      "url": "patches/freportw_chr.s3d",
       "size": 2628668,
       "md5": "ac8e25da21e0857622dc89d1d52b3920",
       "description": "freportw_chr.s3d"
     },
     {
-      "path": "patch_files/freportw_chr.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freportw_chr.txt",
+      "path": "freportw_chr.txt",
+      "url": "patches/freportw_chr.txt",
       "size": 21,
       "md5": "ea3d3d89f12ee73394a03c8e0ad60c5c",
       "description": "freportw_chr.txt"
     },
     {
-      "path": "patch_files/freportw_obj.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/freportw_obj.s3d",
+      "path": "freportw_obj.s3d",
+      "url": "patches/freportw_obj.s3d",
       "size": 2634332,
       "md5": "62c3550b570993522979bcd455cb305a",
       "description": "freportw_obj.s3d"
     },
     {
-      "path": "patch_files/gequip5.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/gequip5.s3d",
+      "path": "gequip5.s3d",
+      "url": "patches/gequip5.s3d",
       "size": 2744633,
       "md5": "bf6bb1a32233e74c12b7235efb3fc573",
       "description": "gequip5.s3d"
     },
     {
-      "path": "patch_files/gia_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/gia_chr.s3d",
+      "path": "gia_chr.s3d",
+      "url": "patches/gia_chr.s3d",
       "size": 223970,
       "md5": "88f4d8938e8a34b8b7c7dd7b28cbbc72",
       "description": "gia_chr.s3d"
     },
     {
-      "path": "patch_files/global6_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/global6_chr.s3d",
+      "path": "global6_chr.s3d",
+      "url": "patches/global6_chr.s3d",
       "size": 1881870,
       "md5": "a3e39706559a8380cfd9779a463978c4",
       "description": "global6_chr.s3d"
     },
     {
-      "path": "patch_files/globaldrk_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/globaldrk_chr.s3d",
+      "path": "globaldrk_chr.s3d",
+      "url": "patches/globaldrk_chr.s3d",
       "size": 311403,
       "md5": "1968c21149f67c497a2b84cb550f8523",
       "description": "globaldrk_chr.s3d"
     },
     {
-      "path": "patch_files/GlobalLoad.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/GlobalLoad.txt",
+      "path": "GlobalLoad.txt",
+      "url": "patches/GlobalLoad.txt",
       "size": 6219,
       "md5": "23021a406f084bf1fbd5169a14d4be49",
       "description": "GlobalLoad.txt"
     },
     {
-      "path": "patch_files/global_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/global_chr.s3d",
+      "path": "global_chr.s3d",
+      "url": "patches/global_chr.s3d",
       "size": 7364868,
       "md5": "d60f6b726a768bc359ba4e20d915fffe",
       "description": "global_chr.s3d"
     },
     {
-      "path": "patch_files/gob_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/gob_chr.s3d",
+      "path": "gob_chr.s3d",
+      "url": "patches/gob_chr.s3d",
       "size": 127523,
       "md5": "9577e95ce33fe63be8e5b4739bc3ce5c",
       "description": "gob_chr.s3d"
     },
     {
-      "path": "patch_files/gol_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/gol_chr.s3d",
+      "path": "gol_chr.s3d",
+      "url": "patches/gol_chr.s3d",
       "size": 318276,
       "md5": "374712e1454fdbe47b5ac04071fcf0bd",
       "description": "gol_chr.s3d"
     },
     {
-      "path": "patch_files/gor_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/gor_chr.s3d",
+      "path": "gor_chr.s3d",
+      "url": "patches/gor_chr.s3d",
       "size": 164460,
       "md5": "0a0e797bb0462a97e2889b48272e120d",
       "description": "gor_chr.s3d"
     },
     {
-      "path": "patch_files/hateplane.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/hateplane.s3d",
+      "path": "hateplane.s3d",
+      "url": "patches/hateplane.s3d",
       "size": 2662040,
       "md5": "e626bfe2d960d46b0c90b1ea1afd8426",
       "description": "hateplane.s3d"
     },
     {
-      "path": "patch_files/hateplane_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/hateplane_chr.s3d",
+      "path": "hateplane_chr.s3d",
+      "url": "patches/hateplane_chr.s3d",
       "size": 2206116,
       "md5": "6ac0b2bbbc4120c1cb49f4a97a62fa4c",
       "description": "hateplane_chr.s3d"
     },
     {
-      "path": "patch_files/hateplane_chr.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/hateplane_chr.txt",
+      "path": "hateplane_chr.txt",
+      "url": "patches/hateplane_chr.txt",
       "size": 12,
       "md5": "b9df18ae042d7b43c16a1f49191f2c2e",
       "description": "hateplane_chr.txt"
     },
     {
-      "path": "patch_files/hateplane_obj.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/hateplane_obj.s3d",
+      "path": "hateplane_obj.s3d",
+      "url": "patches/hateplane_obj.s3d",
       "size": 3841134,
       "md5": "0e670dbb38df144dcae5843f75fa78cf",
       "description": "hateplane_obj.s3d"
     },
     {
-      "path": "patch_files/hateplane_sndbnk.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/hateplane_sndbnk.eff",
+      "path": "hateplane_sndbnk.eff",
+      "url": "patches/hateplane_sndbnk.eff",
       "size": 150,
       "md5": "31649223a4e2cbdea2d5985266b10258",
       "description": "hateplane_sndbnk.eff"
     },
     {
-      "path": "patch_files/hateplane_sounds.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/hateplane_sounds.eff",
+      "path": "hateplane_sounds.eff",
+      "url": "patches/hateplane_sounds.eff",
       "size": 1344,
       "md5": "bd93444d7302f731960ba6fd29f522bb",
       "description": "hateplane_sounds.eff"
     },
     {
-      "path": "patch_files/highkeep.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highkeep.s3d",
+      "path": "highkeep.s3d",
+      "url": "patches/highkeep.s3d",
       "size": 6899981,
       "md5": "ce45552e1d6026c49d9d6cf37a979ef0",
       "description": "highkeep.s3d"
     },
     {
-      "path": "patch_files/highkeep_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highkeep_chr.s3d",
+      "path": "highkeep_chr.s3d",
+      "url": "patches/highkeep_chr.s3d",
       "size": 2333191,
       "md5": "e4a7b52a746fa72bca00829843e6fc88",
       "description": "highkeep_chr.s3d"
     },
     {
-      "path": "patch_files/highkeep_chr.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highkeep_chr.txt",
+      "path": "highkeep_chr.txt",
+      "url": "patches/highkeep_chr.txt",
       "size": 10,
       "md5": "2db86550463a9ed01945be9dd3fda079",
       "description": "highkeep_chr.txt"
     },
     {
-      "path": "patch_files/highkeep_obj.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highkeep_obj.s3d",
+      "path": "highkeep_obj.s3d",
+      "url": "patches/highkeep_obj.s3d",
       "size": 2195514,
       "md5": "86745bd6f37221562b578dbba58ef34f",
       "description": "highkeep_obj.s3d"
     },
     {
-      "path": "patch_files/highkeep_sndbnk.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highkeep_sndbnk.eff",
+      "path": "highkeep_sndbnk.eff",
+      "url": "patches/highkeep_sndbnk.eff",
       "size": 21,
       "md5": "b576843480f99f51d6c80ed5a251050d",
       "description": "highkeep_sndbnk.eff"
     },
     {
-      "path": "patch_files/highkeep_sounds.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highkeep_sounds.eff",
+      "path": "highkeep_sounds.eff",
+      "url": "patches/highkeep_sounds.eff",
       "size": 420,
       "md5": "0731e07281251eec6a1868a420fe88f4",
       "description": "highkeep_sounds.eff"
     },
     {
-      "path": "patch_files/highpass.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpass.s3d",
+      "path": "highpass.s3d",
+      "url": "patches/highpass.s3d",
       "size": 3318288,
       "md5": "56ef3f24fd72e30b2c4eab8a2e5dfad7",
       "description": "highpass.s3d"
     },
     {
-      "path": "patch_files/highpasshold.emt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpasshold.emt",
+      "path": "highpasshold.emt",
+      "url": "patches/highpasshold.emt",
       "size": 12509,
       "md5": "48c46ad29def0fb68d85ffdadaca84f6",
       "description": "highpasshold.emt"
     },
     {
-      "path": "patch_files/highpasshold.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpasshold.s3d",
+      "path": "highpasshold.s3d",
+      "url": "patches/highpasshold.s3d",
       "size": 1546284,
       "md5": "9610811d9595b2d2401bcdb0eef34677",
       "description": "highpasshold.s3d"
     },
     {
-      "path": "patch_files/highpasshold_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpasshold_chr.s3d",
+      "path": "highpasshold_chr.s3d",
+      "url": "patches/highpasshold_chr.s3d",
       "size": 2495961,
       "md5": "a2e0c091e0cb01ac38326c4190ce97de",
       "description": "highpasshold_chr.s3d"
     },
     {
-      "path": "patch_files/highpasshold_chr.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpasshold_chr.txt",
+      "path": "highpasshold_chr.txt",
+      "url": "patches/highpasshold_chr.txt",
       "size": 81,
       "md5": "0d370988c8fdd0ffeabd5a950336ea02",
       "description": "highpasshold_chr.txt"
     },
     {
-      "path": "patch_files/highpasshold_obj.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpasshold_obj.s3d",
+      "path": "highpasshold_obj.s3d",
+      "url": "patches/highpasshold_obj.s3d",
       "size": 383661,
       "md5": "00d78efa49ee3d4fbecac5fec8a4649d",
       "description": "highpasshold_obj.s3d"
     },
     {
-      "path": "patch_files/highpasshold_sndbnk.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpasshold_sndbnk.eff",
+      "path": "highpasshold_sndbnk.eff",
+      "url": "patches/highpasshold_sndbnk.eff",
       "size": 75,
       "md5": "7140b0d990692fbede5475188d43c880",
       "description": "highpasshold_sndbnk.eff"
     },
     {
-      "path": "patch_files/highpasshold_sounds.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpasshold_sounds.eff",
+      "path": "highpasshold_sounds.eff",
+      "url": "patches/highpasshold_sounds.eff",
       "size": 1092,
       "md5": "c55a8aa0fac2fe3aa8be9d1f25b7c6f5",
       "description": "highpasshold_sounds.eff"
     },
     {
-      "path": "patch_files/highpass_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpass_chr.s3d",
+      "path": "highpass_chr.s3d",
+      "url": "patches/highpass_chr.s3d",
       "size": 2495952,
       "md5": "7958edce5ee071d1d592a7b31213ec9d",
       "description": "highpass_chr.s3d"
     },
     {
-      "path": "patch_files/highpass_obj.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpass_obj.s3d",
+      "path": "highpass_obj.s3d",
+      "url": "patches/highpass_obj.s3d",
       "size": 1685533,
       "md5": "97de83303e0244baca9ab406a34a50ed",
       "description": "highpass_obj.s3d"
     },
     {
-      "path": "patch_files/highpass_sndbnk.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpass_sndbnk.eff",
+      "path": "highpass_sndbnk.eff",
+      "url": "patches/highpass_sndbnk.eff",
       "size": 75,
       "md5": "7140b0d990692fbede5475188d43c880",
       "description": "highpass_sndbnk.eff"
     },
     {
-      "path": "patch_files/highpass_sndbnk.eff 2",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpass_sndbnk.eff 2",
+      "path": "highpass_sndbnk.eff 2",
+      "url": "patches/highpass_sndbnk.eff 2",
       "size": 75,
       "md5": "7140b0d990692fbede5475188d43c880",
       "description": "highpass_sndbnk.eff 2"
     },
     {
-      "path": "patch_files/highpass_sounds.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpass_sounds.eff",
+      "path": "highpass_sounds.eff",
+      "url": "patches/highpass_sounds.eff",
       "size": 1092,
       "md5": "c55a8aa0fac2fe3aa8be9d1f25b7c6f5",
       "description": "highpass_sounds.eff"
     },
     {
-      "path": "patch_files/highpass_sounds.eff 2",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/highpass_sounds.eff 2",
+      "path": "highpass_sounds.eff 2",
+      "url": "patches/highpass_sounds.eff 2",
       "size": 1092,
       "md5": "c55a8aa0fac2fe3aa8be9d1f25b7c6f5",
       "description": "highpass_sounds.eff 2"
     },
     {
-      "path": "patch_files/ikg_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/ikg_chr.s3d",
+      "path": "ikg_chr.s3d",
+      "url": "patches/ikg_chr.s3d",
       "size": 109890,
       "md5": "83388a4797cff2fbad3889e3b1bfe16f",
       "description": "ikg_chr.s3d"
     },
     {
-      "path": "patch_files/jkr_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/jkr_chr.s3d",
+      "path": "jkr_chr.s3d",
+      "url": "patches/jkr_chr.s3d",
       "size": 361520,
       "md5": "cc20942d60e02e5c65287896a36f8ec1",
       "description": "jkr_chr.s3d"
     },
     {
-      "path": "patch_files/lavastorm.mp3",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/lavastorm.mp3",
+      "path": "lavastorm.mp3",
+      "url": "patches/lavastorm.mp3",
       "size": 3055202,
       "md5": "054145eaca921322d2cca23477ac0060",
       "description": "lavastorm.mp3"
     },
     {
-      "path": "patch_files/lavastorm.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/lavastorm.s3d",
+      "path": "lavastorm.s3d",
+      "url": "patches/lavastorm.s3d",
       "size": 1034097,
       "md5": "68debf3f2b62929df37e4af91c28030b",
       "description": "lavastorm.s3d"
     },
     {
-      "path": "patch_files/lavastorm.xmi",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/lavastorm.xmi",
+      "path": "lavastorm.xmi",
+      "url": "patches/lavastorm.xmi",
       "size": 18874,
       "md5": "2e299a82ecc33d28ca311dfda30f9dba",
       "description": "lavastorm.xmi"
     },
     {
-      "path": "patch_files/lavastorm_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/lavastorm_chr.s3d",
+      "path": "lavastorm_chr.s3d",
+      "url": "patches/lavastorm_chr.s3d",
       "size": 2509031,
       "md5": "cb5ea6f441b3cb0ac6c3772e9c7f4163",
       "description": "lavastorm_chr.s3d"
     },
     {
-      "path": "patch_files/lavastorm_obj.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/lavastorm_obj.s3d",
+      "path": "lavastorm_obj.s3d",
+      "url": "patches/lavastorm_obj.s3d",
       "size": 315859,
       "md5": "e3c73664ae1e5e4ee60419983f2047b8",
       "description": "lavastorm_obj.s3d"
     },
     {
-      "path": "patch_files/lavastorm_sndbnk.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/lavastorm_sndbnk.eff",
+      "path": "lavastorm_sndbnk.eff",
+      "url": "patches/lavastorm_sndbnk.eff",
       "size": 210,
       "md5": "6794079ffb356e98c20a9d57efd3cba9",
       "description": "lavastorm_sndbnk.eff"
     },
     {
-      "path": "patch_files/lavastorm_sounds.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/lavastorm_sounds.eff",
+      "path": "lavastorm_sounds.eff",
+      "url": "patches/lavastorm_sounds.eff",
       "size": 4872,
       "md5": "ee55f537f39e2befdf94b38f0f3296c6",
       "description": "lavastorm_sounds.eff"
     },
     {
-      "path": "patch_files/lee_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/lee_chr.s3d",
+      "path": "lee_chr.s3d",
+      "url": "patches/lee_chr.s3d",
       "size": 135958,
       "md5": "3583a2aab95421d92f2b21422f89f7fa",
       "description": "lee_chr.s3d"
     },
     {
-      "path": "patch_files/lfaydark_chr.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/lfaydark_chr.txt",
+      "path": "lfaydark_chr.txt",
+      "url": "patches/lfaydark_chr.txt",
       "size": 198,
       "md5": "9bca72422e1f0f2b9c2d869bcf8d403f",
       "description": "lfaydark_chr.txt"
     },
     {
-      "path": "patch_files/LICENSE",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/LICENSE",
+      "path": "LICENSE",
+      "url": "patches/LICENSE",
       "size": 18387,
       "md5": "d437277f55afee75ebe74b04a6955810",
       "description": "LICENSE"
     },
     {
-      "path": "patch_files/lif_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/lif_chr.s3d",
+      "path": "lif_chr.s3d",
+      "url": "patches/lif_chr.s3d",
       "size": 62869,
       "md5": "a90ec59cc66d1b1fc5641d27ec28e4fb",
       "description": "lif_chr.s3d"
     },
     {
-      "path": "patch_files/lim_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/lim_chr.s3d",
+      "path": "lim_chr.s3d",
+      "url": "patches/lim_chr.s3d",
       "size": 64543,
       "md5": "a6f0eccbbd248a644288138ad29b4542",
       "description": "lim_chr.s3d"
     },
     {
-      "path": "patch_files/mam_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/mam_chr.s3d",
+      "path": "mam_chr.s3d",
+      "url": "patches/mam_chr.s3d",
       "size": 153195,
       "md5": "7278f176c17ec06463516e3c7844b0a4",
       "description": "mam_chr.s3d"
     },
     {
-      "path": "patch_files/misty.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/misty.s3d",
+      "path": "misty.s3d",
+      "url": "patches/misty.s3d",
       "size": 1076865,
       "md5": "f004107c6483adf9f6db6c82d8b0d4e7",
       "description": "misty.s3d"
     },
     {
-      "path": "patch_files/misty_obj.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/misty_obj.s3d",
+      "path": "misty_obj.s3d",
+      "url": "patches/misty_obj.s3d",
       "size": 1801304,
       "md5": "be83c08063813d571763d49854d15cb5",
       "description": "misty_obj.s3d"
     },
     {
-      "path": "patch_files/northro.mp3",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/northro.mp3",
+      "path": "northro.mp3",
+      "url": "patches/northro.mp3",
       "size": 2444354,
       "md5": "e697e0779d2b3bf1f1fc6bff23669eba",
       "description": "northro.mp3"
     },
     {
-      "path": "patch_files/nro.emt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/nro.emt",
+      "path": "nro.emt",
+      "url": "patches/nro.emt",
       "size": 3776,
       "md5": "8325922879c91459d4ad6fdf9f3ffd15",
       "description": "nro.emt"
     },
     {
-      "path": "patch_files/nro.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/nro.s3d",
+      "path": "nro.s3d",
+      "url": "patches/nro.s3d",
       "size": 1507487,
       "md5": "3323ac9458d0547af6997f7cb972546d",
       "description": "nro.s3d"
     },
     {
-      "path": "patch_files/nro.xmi",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/nro.xmi",
+      "path": "nro.xmi",
+      "url": "patches/nro.xmi",
       "size": 26548,
       "md5": "4e33c008f2e337be58b1d410c97bd58d",
       "description": "nro.xmi"
     },
     {
-      "path": "patch_files/nro2_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/nro2_chr.s3d",
+      "path": "nro2_chr.s3d",
+      "url": "patches/nro2_chr.s3d",
       "size": 73800,
       "md5": "48b3790127748423c84b63f25a41e297",
       "description": "nro2_chr.s3d"
     },
     {
-      "path": "patch_files/nro_2_obj.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/nro_2_obj.s3d",
+      "path": "nro_2_obj.s3d",
+      "url": "patches/nro_2_obj.s3d",
       "size": 56157,
       "md5": "15f67fd6ed703138d0f14018f71d92c9",
       "description": "nro_2_obj.s3d"
     },
     {
-      "path": "patch_files/nro_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/nro_chr.s3d",
+      "path": "nro_chr.s3d",
+      "url": "patches/nro_chr.s3d",
       "size": 2569236,
       "md5": "de0278b9ab24196257c8bd27d9b4a647",
       "description": "nro_chr.s3d"
     },
     {
-      "path": "patch_files/nro_chr.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/nro_chr.txt",
+      "path": "nro_chr.txt",
+      "url": "patches/nro_chr.txt",
       "size": 84,
       "md5": "38f1758f44145eb9b0b20c715cb7dd40",
       "description": "nro_chr.txt"
     },
     {
-      "path": "patch_files/nro_obj.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/nro_obj.s3d",
+      "path": "nro_obj.s3d",
+      "url": "patches/nro_obj.s3d",
       "size": 2540662,
       "md5": "c6618871f911bedfd0a9e5abe96a0f89",
       "description": "nro_obj.s3d"
     },
     {
-      "path": "patch_files/nro_obj2.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/nro_obj2.s3d",
+      "path": "nro_obj2.s3d",
+      "url": "patches/nro_obj2.s3d",
       "size": 301167,
       "md5": "998411e1af9f410c74362e62d79931e2",
       "description": "nro_obj2.s3d"
     },
     {
-      "path": "patch_files/nro_sndbnk.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/nro_sndbnk.eff",
+      "path": "nro_sndbnk.eff",
+      "url": "patches/nro_sndbnk.eff",
       "size": 137,
       "md5": "0df74ca8d75b5cc4b08268961ef1f60e",
       "description": "nro_sndbnk.eff"
     },
     {
-      "path": "patch_files/nro_sounds.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/nro_sounds.eff",
+      "path": "nro_sounds.eff",
+      "url": "patches/nro_sounds.eff",
       "size": 2940,
       "md5": "cb10c84f336986d91e926e4d183bbfb5",
       "description": "nro_sounds.eff"
     },
     {
-      "path": "patch_files/orc_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/orc_chr.s3d",
+      "path": "orc_chr.s3d",
+      "url": "patches/orc_chr.s3d",
       "size": 164909,
       "md5": "845a39522b1708b6c0af61056f84f3ef",
       "description": "orc_chr.s3d"
     },
     {
-      "path": "patch_files/osk_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/osk_chr.s3d",
+      "path": "osk_chr.s3d",
+      "url": "patches/osk_chr.s3d",
       "size": 313730,
       "md5": "34b7cc33d0f7ab277d949daa587d1fa5",
       "description": "osk_chr.s3d"
     },
     {
-      "path": "patch_files/pif_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/pif_chr.s3d",
+      "path": "pif_chr.s3d",
+      "url": "patches/pif_chr.s3d",
       "size": 113474,
       "md5": "0ad9afcc86a7c1de9df78e62a5f683f3",
       "description": "pif_chr.s3d"
     },
     {
-      "path": "patch_files/pum_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/pum_chr.s3d",
+      "path": "pum_chr.s3d",
+      "url": "patches/pum_chr.s3d",
       "size": 104744,
       "md5": "ff03114af9130228fcb0bb6a8423324d",
       "description": "pum_chr.s3d"
     },
     {
-      "path": "patch_files/qeytoqrg_environmentemitters.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/qeytoqrg_environmentemitters.txt",
+      "path": "qeytoqrg_environmentemitters.txt",
+      "url": "patches/qeytoqrg_environmentemitters.txt",
       "size": 35,
       "md5": "b33d5f5e9722adc16b68f44bef38d02a",
       "description": "qeytoqrg_environmentemitters.txt"
     },
     {
-      "path": "patch_files/rathemtn_environmentemitters.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/rathemtn_environmentemitters.txt",
+      "path": "rathemtn_environmentemitters.txt",
+      "url": "patches/rathemtn_environmentemitters.txt",
       "size": 37,
       "md5": "500b0749bacbf07307c95bd507148dad",
       "description": "rathemtn_environmentemitters.txt"
     },
     {
-      "path": "patch_files/rat_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/rat_chr.s3d",
+      "path": "rat_chr.s3d",
+      "url": "patches/rat_chr.s3d",
       "size": 112103,
       "md5": "fb4bc3899985e6a406e43301f75028d4",
       "description": "rat_chr.s3d"
     },
     {
-      "path": "patch_files/README.md",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/README.md",
+      "path": "README.md",
+      "url": "patches/README.md",
       "size": 858,
       "md5": "6b04d365d7387f0f24271c5ff258fc14",
       "description": "README.md"
     },
     {
-      "path": "patch_files/rhp_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/rhp_chr.s3d",
+      "path": "rhp_chr.s3d",
+      "url": "patches/rhp_chr.s3d",
       "size": 535582,
       "md5": "f9b96aa2c8a0a733b2247111fb07a362",
       "description": "rhp_chr.s3d"
     },
     {
-      "path": "patch_files/sbu_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/sbu_chr.s3d",
+      "path": "sbu_chr.s3d",
+      "url": "patches/sbu_chr.s3d",
       "size": 97846,
       "md5": "6fc3c856e720840825f3cdacf9f922d3",
       "description": "sbu_chr.s3d"
     },
     {
-      "path": "patch_files/SkillCaps.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SkillCaps.txt",
+      "path": "SkillCaps.txt",
+      "url": "patches/SkillCaps.txt",
       "size": 671030,
       "md5": "ad84159afc718a056095c2d7f88dae52",
       "description": "SkillCaps.txt"
     },
     {
-      "path": "patch_files/sku_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/sku_chr.s3d",
+      "path": "sku_chr.s3d",
+      "url": "patches/sku_chr.s3d",
       "size": 67917,
       "md5": "297ed2da227e18d5fe5372044f405a60",
       "description": "sku_chr.s3d"
     },
     {
-      "path": "patch_files/sna_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/sna_chr.s3d",
+      "path": "sna_chr.s3d",
+      "url": "patches/sna_chr.s3d",
       "size": 85043,
       "md5": "c26abd96ab737ac993dad23dbc273756",
       "description": "sna_chr.s3d"
     },
     {
-      "path": "patch_files/spells_us.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/spells_us.txt",
+      "path": "spells_us.txt",
+      "url": "patches/spells_us.txt",
       "size": 28101748,
       "md5": "60edc23cc67a59d3c89920aaea1fab37",
       "description": "spells_us.txt"
     },
     {
-      "path": "patch_files/spi_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/spi_chr.s3d",
+      "path": "spi_chr.s3d",
+      "url": "patches/spi_chr.s3d",
       "size": 110341,
       "md5": "3b0c2af53002b3086c1c2c3424243d62",
       "description": "spi_chr.s3d"
     },
     {
-      "path": "patch_files/stc_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/stc_chr.s3d",
+      "path": "stc_chr.s3d",
+      "url": "patches/stc_chr.s3d",
       "size": 158919,
       "md5": "f1e5e04ce499cc2ec19ff856b4bd590f",
       "description": "stc_chr.s3d"
     },
     {
-      "path": "patch_files/tig_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/tig_chr.s3d",
+      "path": "tig_chr.s3d",
+      "url": "patches/tig_chr.s3d",
       "size": 377873,
       "md5": "ba3897c13b307bfa10a409047acf0fef",
       "description": "tig_chr.s3d"
     },
     {
-      "path": "patch_files/tox.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/tox.s3d",
+      "path": "tox.s3d",
+      "url": "patches/tox.s3d",
       "size": 1452632,
       "md5": "1951d23a1a6dbc0f809236a94dab519f",
       "description": "tox.s3d"
     },
     {
-      "path": "patch_files/tox.xmi",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/tox.xmi",
+      "path": "tox.xmi",
+      "url": "patches/tox.xmi",
       "size": 25594,
       "md5": "c5a1110020af88c7a700c906f396869e",
       "description": "tox.xmi"
     },
     {
-      "path": "patch_files/tox_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/tox_chr.s3d",
+      "path": "tox_chr.s3d",
+      "url": "patches/tox_chr.s3d",
       "size": 2382692,
       "md5": "4414cbea37d3881e7e7f919bb8419e0b",
       "description": "tox_chr.s3d"
     },
     {
-      "path": "patch_files/tox_chr.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/tox_chr.txt",
+      "path": "tox_chr.txt",
+      "url": "patches/tox_chr.txt",
       "size": 28,
       "md5": "0c63dd70aacde6ee993cdc7d960e037f",
       "description": "tox_chr.txt"
     },
     {
-      "path": "patch_files/tox_obj.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/tox_obj.s3d",
+      "path": "tox_obj.s3d",
+      "url": "patches/tox_obj.s3d",
       "size": 1590530,
       "md5": "608e947106713c4075d2cd319482e086",
       "description": "tox_obj.s3d"
     },
     {
-      "path": "patch_files/tox_sndbnk.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/tox_sndbnk.eff",
+      "path": "tox_sndbnk.eff",
+      "url": "patches/tox_sndbnk.eff",
       "size": 205,
       "md5": "0ccd3dd71e996da0d3c81a4f8b365503",
       "description": "tox_sndbnk.eff"
     },
     {
-      "path": "patch_files/tox_sounds.eff",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/tox_sounds.eff",
+      "path": "tox_sounds.eff",
+      "url": "patches/tox_sounds.eff",
       "size": 2604,
       "md5": "424c1494b661f9790b6a5aba34f10cd5",
       "description": "tox_sounds.eff"
     },
     {
-      "path": "patch_files/tre_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/tre_chr.s3d",
+      "path": "tre_chr.s3d",
+      "url": "patches/tre_chr.s3d",
       "size": 105411,
       "md5": "0de03655d34ae2037838e491dbaefe27",
       "description": "tre_chr.s3d"
     },
     {
-      "path": "patch_files/uni_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uni_chr.s3d",
+      "path": "uni_chr.s3d",
+      "url": "patches/uni_chr.s3d",
       "size": 151759,
       "md5": "c8f807c75f7984ca2a1cfcab1fd2529d",
       "description": "uni_chr.s3d"
     },
     {
-      "path": "patch_files/vst_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/vst_chr.s3d",
+      "path": "vst_chr.s3d",
+      "url": "patches/vst_chr.s3d",
       "size": 311856,
       "md5": "a3e150ab20ef0d0c0a18788433219f5d",
       "description": "vst_chr.s3d"
     },
     {
-      "path": "patch_files/was_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/was_chr.s3d",
+      "path": "was_chr.s3d",
+      "url": "patches/was_chr.s3d",
       "size": 96356,
       "md5": "b34483e849242c03fe243cbd51e1da4e",
       "description": "was_chr.s3d"
     },
     {
-      "path": "patch_files/wil_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/wil_chr.s3d",
+      "path": "wil_chr.s3d",
+      "url": "patches/wil_chr.s3d",
       "size": 25874,
       "md5": "9f102050e5ce6610291b729633e2d8fe",
       "description": "wil_chr.s3d"
     },
     {
-      "path": "patch_files/woe_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/woe_chr.s3d",
+      "path": "woe_chr.s3d",
+      "url": "patches/woe_chr.s3d",
       "size": 116207,
       "md5": "e1be47f122dec260e2a9edd9f4e78f97",
       "description": "woe_chr.s3d"
     },
     {
-      "path": "patch_files/wof_v2_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/wof_v2_chr.s3d",
+      "path": "wof_v2_chr.s3d",
+      "url": "patches/wof_v2_chr.s3d",
       "size": 473537,
       "md5": "ca8757ceb541631a546cb5889f8c1f0e",
       "description": "wof_v2_chr.s3d"
     },
     {
-      "path": "patch_files/wol_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/wol_chr.s3d",
+      "path": "wol_chr.s3d",
+      "url": "patches/wol_chr.s3d",
       "size": 122668,
       "md5": "43533bf3131cfe4d186a4ae34afcd825",
       "description": "wol_chr.s3d"
     },
     {
-      "path": "patch_files/yet_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/yet_chr.s3d",
+      "path": "yet_chr.s3d",
+      "url": "patches/yet_chr.s3d",
       "size": 114433,
       "md5": "1682946fb11c5516ad94180d71530474",
       "description": "yet_chr.s3d"
     },
     {
-      "path": "patch_files/zof_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/zof_chr.s3d",
+      "path": "zof_chr.s3d",
+      "url": "patches/zof_chr.s3d",
       "size": 227937,
       "md5": "e1a8b2f63980398e194c30242e89488a",
       "description": "zof_chr.s3d"
     },
     {
-      "path": "patch_files/zom_chr.s3d",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/zom_chr.s3d",
+      "path": "zom_chr.s3d",
+      "url": "patches/zom_chr.s3d",
       "size": 258003,
       "md5": "8720511c4522b7dfd005062d4be0b401",
       "description": "zom_chr.s3d"
     },
     {
-      "path": "patch_files/Maps/highpasshold.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/Maps/highpasshold.txt",
+      "path": "Maps/highpasshold.txt",
+      "url": "patches/Maps/highpasshold.txt",
       "size": 145000,
       "md5": "2da4c8f300e33212d8bc9c95d2c4cbea",
       "description": "highpasshold.txt"
     },
     {
-      "path": "patch_files/Maps/lavastorm.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/Maps/lavastorm.txt",
+      "path": "Maps/lavastorm.txt",
+      "url": "patches/Maps/lavastorm.txt",
       "size": 32849,
       "md5": "e2be1c1eec2cbe577db416eae2a38c7d",
       "description": "lavastorm.txt"
     },
     {
-      "path": "patch_files/Maps/nektulos.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/Maps/nektulos.txt",
+      "path": "Maps/nektulos.txt",
+      "url": "patches/Maps/nektulos.txt",
       "size": 34167,
       "md5": "c460c8246b45f109c66ecf9b3cba7145",
       "description": "nektulos.txt"
     },
     {
-      "path": "patch_files/Resources/actoremittersnew.edd",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/Resources/actoremittersnew.edd",
+      "path": "Resources/actoremittersnew.edd",
+      "url": "patches/Resources/actoremittersnew.edd",
       "size": 127304,
       "md5": "83b380c31132e00c894f9598c59737ce",
       "description": "actoremittersnew.edd"
     },
     {
-      "path": "patch_files/Resources/BaseData.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/Resources/BaseData.txt",
+      "path": "Resources/BaseData.txt",
+      "url": "patches/Resources/BaseData.txt",
       "size": 61818,
       "md5": "8c6938cd61d8aabaa1bdf9149ad3ccb4",
       "description": "BaseData.txt"
     },
     {
-      "path": "patch_files/Resources/GlobalLoad.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/Resources/GlobalLoad.txt",
+      "path": "Resources/GlobalLoad.txt",
+      "url": "patches/Resources/GlobalLoad.txt",
       "size": 6219,
       "md5": "23021a406f084bf1fbd5169a14d4be49",
       "description": "GlobalLoad.txt"
     },
     {
-      "path": "patch_files/Resources/GlobalLoad_chr.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/Resources/GlobalLoad_chr.txt",
+      "path": "Resources/GlobalLoad_chr.txt",
+      "url": "patches/Resources/GlobalLoad_chr.txt",
       "size": 599,
       "md5": "39990e835b201b339897fb47cc9459e3",
       "description": "GlobalLoad_chr.txt"
     },
     {
-      "path": "patch_files/Resources/loadscreen.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/Resources/loadscreen.jpg",
+      "path": "Resources/loadscreen.jpg",
+      "url": "patches/Resources/loadscreen.jpg",
       "size": 300579,
       "md5": "681984b39bae50df8e0a941410b5e915",
       "description": "loadscreen.jpg"
     },
     {
-      "path": "patch_files/Resources/skillcaps.txt",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/Resources/skillcaps.txt",
+      "path": "Resources/skillcaps.txt",
+      "url": "patches/Resources/skillcaps.txt",
       "size": 744465,
       "md5": "7ee7905980b725e9f230f100b64ff9b9",
       "description": "skillcaps.txt"
     },
     {
-      "path": "patch_files/SpellEffects/flare_whsp50a.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/flare_whsp50a.png",
+      "path": "SpellEffects/flare_whsp50a.png",
+      "url": "patches/SpellEffects/flare_whsp50a.png",
       "size": 14597,
       "md5": "44dec14c696001011aefe8ffbc111d32",
       "description": "flare_whsp50a.png"
     },
     {
-      "path": "patch_files/SpellEffects/gena20.bmp",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/gena20.bmp",
+      "path": "SpellEffects/gena20.bmp",
+      "url": "patches/SpellEffects/gena20.bmp",
       "size": 5174,
       "md5": "7237c62c28fb57ac174281b3545756a2",
       "description": "gena20.bmp"
     },
     {
-      "path": "patch_files/SpellEffects/gena30.bmp",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/gena30.bmp",
+      "path": "SpellEffects/gena30.bmp",
+      "url": "patches/SpellEffects/gena30.bmp",
       "size": 5174,
       "md5": "c659a14de211734289b9dd968e4dfbb2",
       "description": "gena30.bmp"
     },
     {
-      "path": "patch_files/SpellEffects/genab1.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/genab1.png",
+      "path": "SpellEffects/genab1.png",
+      "url": "patches/SpellEffects/genab1.png",
       "size": 3476,
       "md5": "b1823179b460f62e02d2327bb7320a40",
       "description": "genab1.png"
     },
     {
-      "path": "patch_files/SpellEffects/genb20.bmp",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/genb20.bmp",
+      "path": "SpellEffects/genb20.bmp",
+      "url": "patches/SpellEffects/genb20.bmp",
       "size": 5174,
       "md5": "0bd22ec9cc3fd9284196e2001b6f779c",
       "description": "genb20.bmp"
     },
     {
-      "path": "patch_files/SpellEffects/gob.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/gob.png",
+      "path": "SpellEffects/gob.png",
+      "url": "patches/SpellEffects/gob.png",
       "size": 35032,
       "md5": "36288437815c0358db195ff03070c37f",
       "description": "gob.png"
     },
     {
-      "path": "patch_files/SpellEffects/snow.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/snow.png",
+      "path": "SpellEffects/snow.png",
+      "url": "patches/SpellEffects/snow.png",
       "size": 543,
       "md5": "fe5c9376e6325218ee98fd9e441a4851",
       "description": "snow.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelaa.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelaa.png",
+      "path": "SpellEffects/spelaa.png",
+      "url": "patches/SpellEffects/spelaa.png",
       "size": 36120,
       "md5": "514729100f1d94fe0346493af7702ac9",
       "description": "spelaa.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelab.tga",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelab.tga",
+      "path": "SpellEffects/spelab.tga",
+      "url": "patches/SpellEffects/spelab.tga",
       "size": 262188,
       "md5": "78ff3e4af747cd91bf9499bbb1ed2d04",
       "description": "spelab.tga"
     },
     {
-      "path": "patch_files/SpellEffects/spelan.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelan.png",
+      "path": "SpellEffects/spelan.png",
+      "url": "patches/SpellEffects/spelan.png",
       "size": 28360,
       "md5": "83edb63aa0064812095e3cb26f0aa68b",
       "description": "spelan.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelba.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelba.png",
+      "path": "SpellEffects/spelba.png",
+      "url": "patches/SpellEffects/spelba.png",
       "size": 31697,
       "md5": "704c9f383ef7e1ece269cf65574991dc",
       "description": "spelba.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelbb.tga",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelbb.tga",
+      "path": "SpellEffects/spelbb.tga",
+      "url": "patches/SpellEffects/spelbb.tga",
       "size": 262188,
       "md5": "35d2896539655b13dcfba9d80c8e3a42",
       "description": "spelbb.tga"
     },
     {
-      "path": "patch_files/SpellEffects/spelcb.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelcb.png",
+      "path": "SpellEffects/spelcb.png",
+      "url": "patches/SpellEffects/spelcb.png",
       "size": 41732,
       "md5": "215c4c2b6e2bb9291ce33a5abdbcb0bd",
       "description": "spelcb.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelcc.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelcc.png",
+      "path": "SpellEffects/spelcc.png",
+      "url": "patches/SpellEffects/spelcc.png",
       "size": 1849,
       "md5": "281ac85e6f93898cd633914303e5aa78",
       "description": "spelcc.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelcd.tga",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelcd.tga",
+      "path": "SpellEffects/spelcd.tga",
+      "url": "patches/SpellEffects/spelcd.tga",
       "size": 4908,
       "md5": "b7d0b8b476a3a7cb9d9b677d849f9869",
       "description": "spelcd.tga"
     },
     {
-      "path": "patch_files/SpellEffects/spelce.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelce.png",
+      "path": "SpellEffects/spelce.png",
+      "url": "patches/SpellEffects/spelce.png",
       "size": 1116,
       "md5": "cb8b743b81ae6c66aca4cf9e53a884cc",
       "description": "spelce.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelcf.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelcf.png",
+      "path": "SpellEffects/spelcf.png",
+      "url": "patches/SpellEffects/spelcf.png",
       "size": 2043,
       "md5": "4c493cc097ccae76472688e3cbda1bc4",
       "description": "spelcf.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelcm.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelcm.png",
+      "path": "SpellEffects/spelcm.png",
+      "url": "patches/SpellEffects/spelcm.png",
       "size": 32306,
       "md5": "592837e3ebc94a6ed6bd3e7de325a536",
       "description": "spelcm.png"
     },
     {
-      "path": "patch_files/SpellEffects/speldc.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/speldc.png",
+      "path": "SpellEffects/speldc.png",
+      "url": "patches/SpellEffects/speldc.png",
       "size": 1683,
       "md5": "c2db0be6bf3a74a2a692012d76333a6f",
       "description": "speldc.png"
     },
     {
-      "path": "patch_files/SpellEffects/speldd.tga",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/speldd.tga",
+      "path": "SpellEffects/speldd.tga",
+      "url": "patches/SpellEffects/speldd.tga",
       "size": 4908,
       "md5": "597469e49e96322801b3b3af971c90d7",
       "description": "speldd.tga"
     },
     {
-      "path": "patch_files/SpellEffects/spelea.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelea.png",
+      "path": "SpellEffects/spelea.png",
+      "url": "patches/SpellEffects/spelea.png",
       "size": 2084,
       "md5": "490af6290fcd353d9d47966a8132bd93",
       "description": "spelea.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelja.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelja.png",
+      "path": "SpellEffects/spelja.png",
+      "url": "patches/SpellEffects/spelja.png",
       "size": 40452,
       "md5": "1d2f489a4d2828db379991a0a8580b1c",
       "description": "spelja.png"
     },
     {
-      "path": "patch_files/SpellEffects/speljb.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/speljb.png",
+      "path": "SpellEffects/speljb.png",
+      "url": "patches/SpellEffects/speljb.png",
       "size": 20084,
       "md5": "f550367e76f9b3286806b9658fbcfa03",
       "description": "speljb.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelka.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelka.png",
+      "path": "SpellEffects/spelka.png",
+      "url": "patches/SpellEffects/spelka.png",
       "size": 54829,
       "md5": "c41139407407d508b07699af2dff0bfe",
       "description": "spelka.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelkb.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelkb.png",
+      "path": "SpellEffects/spelkb.png",
+      "url": "patches/SpellEffects/spelkb.png",
       "size": 38601,
       "md5": "71e63b0b11a072a40ca63486213ac1e4",
       "description": "spelkb.png"
     },
     {
-      "path": "patch_files/SpellEffects/spella.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spella.png",
+      "path": "SpellEffects/spella.png",
+      "url": "patches/SpellEffects/spella.png",
       "size": 34093,
       "md5": "a57eba246ed979a6acbebff15d1bc577",
       "description": "spella.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelma.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelma.png",
+      "path": "SpellEffects/spelma.png",
+      "url": "patches/SpellEffects/spelma.png",
       "size": 14902,
       "md5": "c9bbce8a9610a69a14c70aad6593b789",
       "description": "spelma.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelna.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelna.png",
+      "path": "SpellEffects/spelna.png",
+      "url": "patches/SpellEffects/spelna.png",
       "size": 46193,
       "md5": "91c14a3f41e05c13400652153d715bcd",
       "description": "spelna.png"
     },
     {
-      "path": "patch_files/SpellEffects/speloa.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/speloa.png",
+      "path": "SpellEffects/speloa.png",
+      "url": "patches/SpellEffects/speloa.png",
       "size": 25774,
       "md5": "982a8b469ab61f0aab791da36a46b4bd",
       "description": "speloa.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelpa.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelpa.png",
+      "path": "SpellEffects/spelpa.png",
+      "url": "patches/SpellEffects/spelpa.png",
       "size": 10779,
       "md5": "3c5ce683147d87e39207a451d6320170",
       "description": "spelpa.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelqa.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelqa.png",
+      "path": "SpellEffects/spelqa.png",
+      "url": "patches/SpellEffects/spelqa.png",
       "size": 20857,
       "md5": "03d308a6219f405965b0bc818f5bd904",
       "description": "spelqa.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelra.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelra.png",
+      "path": "SpellEffects/spelra.png",
+      "url": "patches/SpellEffects/spelra.png",
       "size": 4724,
       "md5": "2a5d472b80148da1d70d16a5e939a99d",
       "description": "spelra.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelrb.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelrb.png",
+      "path": "SpellEffects/spelrb.png",
+      "url": "patches/SpellEffects/spelrb.png",
       "size": 5109,
       "md5": "790e0ca261d5602c0e60804fce9e2276",
       "description": "spelrb.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelua.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelua.png",
+      "path": "SpellEffects/spelua.png",
+      "url": "patches/SpellEffects/spelua.png",
       "size": 18797,
       "md5": "5310da7a18bf4698351623738762df63",
       "description": "spelua.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelub.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelub.png",
+      "path": "SpellEffects/spelub.png",
+      "url": "patches/SpellEffects/spelub.png",
       "size": 5495,
       "md5": "2c2f43ffbac5b5d644e1488381937a58",
       "description": "spelub.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelva.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelva.png",
+      "path": "SpellEffects/spelva.png",
+      "url": "patches/SpellEffects/spelva.png",
       "size": 9314,
       "md5": "0676574ca31b71b45be6f5f401381909",
       "description": "spelva.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelyb.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelyb.png",
+      "path": "SpellEffects/spelyb.png",
+      "url": "patches/SpellEffects/spelyb.png",
       "size": 20424,
       "md5": "4bd9135093c8c4f7fd1ff6a0f1c284f0",
       "description": "spelyb.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelyc.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelyc.png",
+      "path": "SpellEffects/spelyc.png",
+      "url": "patches/SpellEffects/spelyc.png",
       "size": 1593,
       "md5": "30931b3464f1d4d628a9d0725691ef97",
       "description": "spelyc.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelyd.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelyd.png",
+      "path": "SpellEffects/spelyd.png",
+      "url": "patches/SpellEffects/spelyd.png",
       "size": 1047,
       "md5": "51c9a54cf4a9b81abd0a46af6940a0e9",
       "description": "spelyd.png"
     },
     {
-      "path": "patch_files/SpellEffects/spelye.png",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/SpellEffects/spelye.png",
+      "path": "SpellEffects/spelye.png",
+      "url": "patches/SpellEffects/spelye.png",
       "size": 1593,
       "md5": "c442a7002ce9bbf570fbaaa77e68bd5a",
       "description": "spelye.png"
     },
     {
-      "path": "patch_files/uifiles/default/gemicons01.tga",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/gemicons01.tga",
+      "path": "uifiles/default/gemicons01.tga",
+      "url": "patches/uifiles/default/gemicons01.tga",
       "size": 262683,
       "md5": "44bb82d0bafb1f3daf81a62f9d9a62a9",
       "description": "gemicons01.tga"
     },
     {
-      "path": "patch_files/uifiles/default/gemicons02.tga",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/gemicons02.tga",
+      "path": "uifiles/default/gemicons02.tga",
+      "url": "patches/uifiles/default/gemicons02.tga",
       "size": 262188,
       "md5": "a98d53a063b6d2f5c81b762d77a01908",
       "description": "gemicons02.tga"
     },
     {
-      "path": "patch_files/uifiles/default/gemicons03.tga",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/gemicons03.tga",
+      "path": "uifiles/default/gemicons03.tga",
+      "url": "patches/uifiles/default/gemicons03.tga",
       "size": 262188,
       "md5": "1920031b77815e55f31b1d85b964092f",
       "description": "gemicons03.tga"
     },
     {
-      "path": "patch_files/uifiles/default/spells01.tga",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/spells01.tga",
+      "path": "uifiles/default/spells01.tga",
+      "url": "patches/uifiles/default/spells01.tga",
       "size": 262188,
       "md5": "77620aec82c7b03ee1bcef9a8552d699",
       "description": "spells01.tga"
     },
     {
-      "path": "patch_files/uifiles/default/spells02.tga",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/spells02.tga",
+      "path": "uifiles/default/spells02.tga",
+      "url": "patches/uifiles/default/spells02.tga",
       "size": 262188,
       "md5": "c55f2eda3e9c737ba497086d670ca591",
       "description": "spells02.tga"
     },
     {
-      "path": "patch_files/uifiles/default/spells03.tga",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/spells03.tga",
+      "path": "uifiles/default/spells03.tga",
+      "url": "patches/uifiles/default/spells03.tga",
       "size": 262188,
       "md5": "c62cc174955def9a79cb0ce9a3d28d5d",
       "description": "spells03.tga"
     },
     {
-      "path": "patch_files/uifiles/default/spells04.tga",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/spells04.tga",
+      "path": "uifiles/default/spells04.tga",
+      "url": "patches/uifiles/default/spells04.tga",
       "size": 262188,
       "md5": "31033586d490bb163f668be2a7df45fc",
       "description": "spells04.tga"
     },
     {
-      "path": "patch_files/uifiles/default/spells05.tga",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/spells05.tga",
+      "path": "uifiles/default/spells05.tga",
+      "url": "patches/uifiles/default/spells05.tga",
       "size": 196652,
       "md5": "d3a57c03c847da9fb433c3427c4632f2",
       "description": "spells05.tga"
     },
     {
-      "path": "patch_files/uifiles/default/spells06.tga",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/spells06.tga",
+      "path": "uifiles/default/spells06.tga",
+      "url": "patches/uifiles/default/spells06.tga",
       "size": 196652,
       "md5": "e745212b7a43c4a8d572f94aa77108f1",
       "description": "spells06.tga"
     },
     {
-      "path": "patch_files/uifiles/default/spells07.tga",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/spells07.tga",
+      "path": "uifiles/default/spells07.tga",
+      "url": "patches/uifiles/default/spells07.tga",
       "size": 196652,
       "md5": "ddd6c71e42216f2611bea288503587be",
       "description": "spells07.tga"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen01.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen01.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen01.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen01.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen01.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen02.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen02.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen02.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen02.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen02.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen03.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen03.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen03.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen03.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen03.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen04.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen04.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen04.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen04.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen04.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen05.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen05.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen05.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen05.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen05.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen06.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen06.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen06.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen06.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen06.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen07.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen07.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen07.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen07.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen07.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen08.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen08.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen08.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen08.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen08.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen09.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen09.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen09.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen09.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen09.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen10.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen10.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen10.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen10.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen10.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen11.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen11.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen11.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen11.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen11.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen12.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen12.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen12.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen12.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen12.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen13.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen13.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen13.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen13.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen13.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen14.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen14.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen14.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen14.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen14.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen15.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen15.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen15.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen15.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen15.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen16.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen16.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen16.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen16.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen16.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen17.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen17.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen17.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen17.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen17.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen18.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen18.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen18.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen18.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen18.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen19.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen19.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen19.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen19.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen19.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen20.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen20.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen20.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen20.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen20.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen21.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen21.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen21.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen21.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen21.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen22.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen22.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen22.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen22.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen22.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen23.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen23.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen23.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen23.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen23.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen24.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen24.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen24.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen24.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen24.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen25.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen25.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen25.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen25.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen25.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen26.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen26.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen26.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen26.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen26.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen27.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen27.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen27.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen27.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen27.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen28.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen28.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen28.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen28.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen28.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen29.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen29.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen29.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen29.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen29.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen30.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen30.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen30.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen30.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen30.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen31.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen31.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen31.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen31.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen31.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen32.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen32.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen32.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen32.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen32.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen33.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen33.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen33.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen33.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen33.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen34.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen34.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen34.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen34.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen34.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen35.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen35.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen35.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen35.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen35.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen36.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen36.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen36.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen36.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen36.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen37.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen37.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen37.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen37.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen37.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen38.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen38.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen38.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen38.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen38.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen39.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen39.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen39.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen39.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen39.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen40.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen40.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen40.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen40.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen40.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen41.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen41.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen41.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen41.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen41.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen42.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen42.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen42.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen42.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen42.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen43.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen43.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen43.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen43.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen43.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen44.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen44.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen44.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen44.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen44.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen45.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen45.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen45.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen45.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen45.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen46.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen46.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen46.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen46.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen46.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen47.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen47.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen47.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen47.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen47.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen48.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen48.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen48.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen48.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen48.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen49.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen49.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen49.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen49.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen49.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen50.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen50.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen50.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen50.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen50.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen51.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen51.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen51.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen51.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen51.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen52.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen52.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen52.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen52.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen52.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen53.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen53.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen53.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen53.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen53.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen54.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen54.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen54.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen54.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen54.jpg"
     },
     {
-      "path": "patch_files/uifiles/default/loadscreens/loadscreen55.jpg",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/uifiles/default/loadscreens/loadscreen55.jpg",
+      "path": "uifiles/default/loadscreens/loadscreen55.jpg",
+      "url": "patches/uifiles/default/loadscreens/loadscreen55.jpg",
       "size": 287581,
       "md5": "c0420ffd9640615ac84be0c7f90c169d",
       "description": "loadscreen55.jpg"
     }
   ],
   "notes": [
-    "This patch includes all RNGP server patch files",
-    "Updated character models and zones",
-    "Bug fixes and performance improvements"
+    "This patch was automatically generated",
+    "Contains 278 files",
+    "Total size: 200.19 MB"
   ]
 }

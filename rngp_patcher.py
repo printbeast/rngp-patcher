@@ -23,9 +23,9 @@ import configparser
 # GitHub Configuration
 # IMPORTANT: Update these values with your GitHub repository details
 GITHUB_CONFIG = {
-    "repo_owner": "your-github-username",  # Your GitHub username
-    "repo_name": "rngp-patches",           # Your repository name
-    "manifest_url": "https://raw.githubusercontent.com/your-github-username/rngp-patches/main/patch_manifest.json"
+    "repo_owner": "printbeast",             # Your GitHub username
+    "repo_name": "rngp-patcher",            # Your repository name
+    "manifest_url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/main/patch_manifest.json"
     # The manifest will contain direct download URLs to your GitHub Releases
 }
 

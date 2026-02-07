@@ -22,11 +22,10 @@ import configparser
 
 # GitHub Configuration
 # IMPORTANT: Update these values with your GitHub repository details
-# For local development, we'll use the local manifest file
 GITHUB_CONFIG = {
     "repo_owner": "printbeast",             # Your GitHub username
     "repo_name": "rngp-patcher",            # Your repository name
-    "manifest_url": "main/patch_manifest.json"   # Local manifest file for development
+    "manifest_url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_manifest.json"   # GitHub raw URL for manifest
     # The manifest will contain direct download URLs to your GitHub Releases
 }
 
@@ -304,35 +303,15 @@ class RNGPPatcher:
             
             manifest_url = GITHUB_CONFIG['manifest_url']
             
-            # Check if manifest is local file or remote URL
-            if manifest_url == "patch_manifest.json":
-                # Load local manifest file
-                try:
-                    # Try to load manifest from main directory if running from root
-                    manifest_path = "main/patch_manifest.json"
-                    if not os.path.exists(manifest_path):
-                        # Fall back to current directory
-                        manifest_path = "patch_manifest.json"
-                    
-                    # Ensure we're looking in the right place relative to script location
-                    script_dir = os.path.dirname(os.path.abspath(__file__))
-                    full_manifest_path = os.path.join(script_dir, manifest_path)
-                    if not os.path.exists(full_manifest_path):
-                        # If still not found, try just the filename
-                        full_manifest_path = manifest_path
-                    
-                    with open(full_manifest_path, 'r') as f:
-                        manifest_data = f.read()
-                    manifest = json.loads(manifest_data)
-                except Exception as e:
-                    self.log_message(f"Failed to load local manifest: {e}", "ERROR")
-                    messagebox.showerror("Error", f"Could not load local manifest:\n{e}")
-                    return
-            else:
-                # Load from remote URL
+            # Always load manifest from remote URL (GitHub)
+            try:
                 with urllib.request.urlopen(manifest_url, timeout=10) as response:
                     manifest_data = response.read().decode()
                 manifest = json.loads(manifest_data)
+            except Exception as e:
+                self.log_message(f"Failed to load manifest from GitHub: {e}", "ERROR")
+                messagebox.showerror("Error", f"Could not load manifest from GitHub:\n{e}")
+                return
             
             # Get list of files that need updating
             files_to_update = self._compare_files(manifest)
@@ -482,36 +461,16 @@ class RNGPPatcher:
             
             manifest_url = GITHUB_CONFIG['manifest_url']
             
-            # Check if manifest is local file or remote URL
-            if manifest_url == "patch_manifest.json":
-                # Load local manifest file
-                try:
-                    # Try to load manifest from main directory if running from root
-                    manifest_path = "main/patch_manifest.json"
-                    if not os.path.exists(manifest_path):
-                        # Fall back to current directory
-                        manifest_path = "patch_manifest.json"
-                    
-                    # Ensure we're looking in the right place relative to script location
-                    script_dir = os.path.dirname(os.path.abspath(__file__))
-                    full_manifest_path = os.path.join(script_dir, manifest_path)
-                    if not os.path.exists(full_manifest_path):
-                        # If still not found, try just the filename
-                        full_manifest_path = manifest_path
-                    
-                    with open(full_manifest_path, 'r') as f:
-                        manifest_data = f.read()
-                    manifest = json.loads(manifest_data)
-                except Exception as e:
-                    self.log_message(f"Failed to load local manifest: {e}", "ERROR")
-                    messagebox.showerror("Error", f"Could not load local manifest:\n{e}")
-                    self._patching_complete(False)
-                    return
-            else:
-                # Load from remote URL
+            # Always load manifest from remote URL (GitHub)
+            try:
                 with urllib.request.urlopen(manifest_url, timeout=10) as response:
                     manifest_data = response.read().decode()
                 manifest = json.loads(manifest_data)
+            except Exception as e:
+                self.log_message(f"Failed to load manifest from GitHub: {e}", "ERROR")
+                messagebox.showerror("Error", f"Could not load manifest from GitHub:\n{e}")
+                self._patching_complete(False)
+                return
             
             # Get files to update
             files_to_update = self._compare_files(manifest)

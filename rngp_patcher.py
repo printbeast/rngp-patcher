@@ -5,6 +5,8 @@ Author: RNGP Development Team
 
 This patcher connects to Wasabi S3 bucket to download and install game files.
 No installation required - just run the executable!
+
+FIXED: MD5 hash calculation now matches the manifest generator
 """
 
 import tkinter as tk
@@ -22,10 +24,11 @@ import configparser
 
 # GitHub Configuration
 # IMPORTANT: Update these values with your GitHub repository details
+# For local development, we'll use the local manifest file
 GITHUB_CONFIG = {
     "repo_owner": "printbeast",             # Your GitHub username
     "repo_name": "rngp-patcher",            # Your repository name
-    "manifest_url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_manifest.json"   # GitHub raw URL for manifest
+    "manifest_url": "patch_manifest.json"   # Local manifest file for development
     # The manifest will contain direct download URLs to your GitHub Releases
 }
 
@@ -303,15 +306,22 @@ class RNGPPatcher:
             
             manifest_url = GITHUB_CONFIG['manifest_url']
             
-            # Always load manifest from remote URL (GitHub)
-            try:
+            # Check if manifest is local file or remote URL
+            if manifest_url == "patch_manifest.json":
+                # Load local manifest file
+                try:
+                    with open(manifest_url, 'r') as f:
+                        manifest_data = f.read()
+                    manifest = json.loads(manifest_data)
+                except Exception as e:
+                    self.log_message(f"Failed to load local manifest: {e}", "ERROR")
+                    messagebox.showerror("Error", f"Could not load local manifest:\n{e}")
+                    return
+            else:
+                # Load from remote URL
                 with urllib.request.urlopen(manifest_url, timeout=10) as response:
                     manifest_data = response.read().decode()
                 manifest = json.loads(manifest_data)
-            except Exception as e:
-                self.log_message(f"Failed to load manifest from GitHub: {e}", "ERROR")
-                messagebox.showerror("Error", f"Could not load manifest from GitHub:\n{e}")
-                return
             
             # Get list of files that need updating
             files_to_update = self._compare_files(manifest)
@@ -369,12 +379,30 @@ class RNGPPatcher:
         return files_to_update
     
     def _calculate_md5(self, file_path):
-        """Calculate MD5 hash of a file"""
+        """
+        Calculate MD5 hash of a file
+        
+        FIXED: Now matches the manifest generator's hash calculation method.
+        Text files are normalized to LF line endings before hashing to ensure
+        consistency across different systems and Git's line ending handling.
+        """
+        # For text files, normalize line endings to match manifest generation
+        text_extensions = {'.txt', '.md', '.cfg', '.emt', '.map', '.eff', '.ini', '.opt', '.edd', '.zon', '.xmi'}
+        
         md5_hash = hashlib.md5()
         try:
-            with open(file_path, "rb") as f:
-                for chunk in iter(lambda: f.read(4096), b""):
-                    md5_hash.update(chunk)
+            ext = Path(file_path).suffix.lower()
+            if ext in text_extensions:
+                # Read as text, replace CRLF with LF, encode as UTF-8
+                # This matches what the manifest generator does
+                with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
+                    content = f.read().replace('\r\n', '\n')
+                    md5_hash.update(content.encode('utf-8'))
+            else:
+                # Binary mode for everything else (images, executables, etc.)
+                with open(file_path, "rb") as f:
+                    for chunk in iter(lambda: f.read(4096), b""):
+                        md5_hash.update(chunk)
             return md5_hash.hexdigest()
         except Exception:
             return ""
@@ -461,16 +489,23 @@ class RNGPPatcher:
             
             manifest_url = GITHUB_CONFIG['manifest_url']
             
-            # Always load manifest from remote URL (GitHub)
-            try:
+            # Check if manifest is local file or remote URL
+            if manifest_url == "patch_manifest.json":
+                # Load local manifest file
+                try:
+                    with open(manifest_url, 'r') as f:
+                        manifest_data = f.read()
+                    manifest = json.loads(manifest_data)
+                except Exception as e:
+                    self.log_message(f"Failed to load local manifest: {e}", "ERROR")
+                    messagebox.showerror("Error", f"Could not load local manifest:\n{e}")
+                    self._patching_complete(False)
+                    return
+            else:
+                # Load from remote URL
                 with urllib.request.urlopen(manifest_url, timeout=10) as response:
                     manifest_data = response.read().decode()
                 manifest = json.loads(manifest_data)
-            except Exception as e:
-                self.log_message(f"Failed to load manifest from GitHub: {e}", "ERROR")
-                messagebox.showerror("Error", f"Could not load manifest from GitHub:\n{e}")
-                self._patching_complete(False)
-                return
             
             # Get files to update
             files_to_update = self._compare_files(manifest)

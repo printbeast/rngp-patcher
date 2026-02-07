@@ -767,13 +767,6 @@
       "description": "lfaydark_chr.txt"
     },
     {
-      "path": "LICENSE",
-      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/LICENSE",
-      "size": 18387,
-      "md5": "d437277f55afee75ebe74b04a6955810",
-      "description": "LICENSE"
-    },
-    {
       "path": "lif_chr.s3d",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/lif_chr.s3d",
       "size": 62869,

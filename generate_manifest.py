@@ -137,9 +137,8 @@ def generate_manifest(source_folder, base_url_path="patches", version="1.0.0"):
 def main():
     """Main entry point"""
     print()
-    print("╔════════════════════════════════════════════════════════════╗")
-    print("║         RNGP Patcher - Manifest Generator v1.0             ║")
-    print("╚════════════════════════════════════════════════════════════╝")
+    print("RNGP Patcher - Manifest Generator v1.0")
+    print("=" * 40)
     print()
     
     # Get user input
@@ -166,9 +165,9 @@ def main():
     manifest = generate_manifest(source_folder, base_url, version)
     
     if manifest:
-        print("✓ Done!")
+        print("Done!")
     else:
-        print("✗ Failed to generate manifest")
+        print("Failed to generate manifest")
     
     input("\nPress Enter to exit...")
 

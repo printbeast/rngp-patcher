@@ -2,13 +2,14 @@
 
 block_cipher = None
 
-
 a = Analysis(
     ['rngp_patcher.py'],
     pathex=[],
     binaries=[],
     datas=[
         ('RNGP_Logo.png', '.'),
+        ('RNGP_Logo.ico', '.'),
+        ('patcher.mp3', '.'),
     ],
     hiddenimports=[],
     hookspath=[],
@@ -20,8 +21,8 @@ a = Analysis(
     cipher=block_cipher,
     noarchive=False,
 )
-pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
 
+pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
 
 exe = EXE(
     pyz,

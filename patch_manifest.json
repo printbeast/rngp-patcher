@@ -326,6 +326,13 @@
       "description": "ele_chr.s3d"
     },
     {
+      "path": "eqclient.ini",
+      "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/eqclient.ini",
+      "size": 11079,
+      "md5": "3e4c4d403e83cfec31291809c64673ee",
+      "description": "eqclient.ini"
+    },
+    {
       "path": "eqhost.txt",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/eqhost.txt",
       "size": 78,
@@ -1931,7 +1938,7 @@
   ],
   "notes": [
     "This patch was automatically generated",
-    "Contains 275 files",
-    "Total size: 200.18 MB"
+    "Contains 276 files",
+    "Total size: 200.19 MB"
   ]
 }

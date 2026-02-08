@@ -22,6 +22,12 @@ from pathlib import Path
 from datetime import datetime
 import configparser
 
+try:
+    import pygame
+    PYGAME_AVAILABLE = True
+except ImportError:
+    PYGAME_AVAILABLE = False
+
 # GitHub Configuration
 # IMPORTANT: Update these values with your GitHub repository details
 # For local development, we'll use the local manifest file
@@ -39,6 +45,9 @@ class RNGPPatcher:
         self.root.geometry("700x680")
         self.root.resizable(False, False)
         
+        # Center window on screen
+        self.center_window()
+        
         # Set icon (will be embedded in exe)
         try:
             self.root.iconbitmap("RNGP_Logo.ico")
@@ -55,8 +64,30 @@ class RNGPPatcher:
         self.config_file = "patcher_config.ini"
         self.load_config()
         
+        # Initialize music
+        self.init_music()
+        
         # Build UI
         self.create_ui()
+        
+    def center_window(self):
+        """Center the window on the screen"""
+        self.root.update_idletasks()
+        
+        # Get window dimensions
+        window_width = 700
+        window_height = 680
+        
+        # Get screen dimensions
+        screen_width = self.root.winfo_screenwidth()
+        screen_height = self.root.winfo_screenheight()
+        
+        # Calculate position
+        x = (screen_width - window_width) // 2
+        y = (screen_height - window_height) // 2
+        
+        # Set position
+        self.root.geometry(f"{window_width}x{window_height}+{x}+{y}")
         
     def create_ui(self):
         """Create the main user interface"""
@@ -210,6 +241,31 @@ class RNGPPatcher:
         
         return os.path.join(base_path, relative_path)
     
+    def init_music(self):
+        """Initialize and play background music"""
+        if not PYGAME_AVAILABLE:
+            return
+        
+        try:
+            pygame.mixer.init()
+            music_path = self.resource_path("patcher.mp3")
+            
+            if os.path.exists(music_path):
+                pygame.mixer.music.load(music_path)
+                pygame.mixer.music.set_volume(0.3)  # 30% volume
+                pygame.mixer.music.play(-1)  # Loop indefinitely
+        except Exception as e:
+            # Silently fail if music can't play
+            pass
+    
+    def stop_music(self):
+        """Stop background music"""
+        if PYGAME_AVAILABLE:
+            try:
+                pygame.mixer.music.stop()
+            except:
+                pass
+    
     def load_config(self):
         """Load saved configuration"""
         config = configparser.ConfigParser()
@@ -285,22 +341,6 @@ class RNGPPatcher:
     def _check_updates_thread(self):
         """Thread worker for checking updates"""
         try:
-            # Check for old files that will be deleted
-            files_to_delete = [
-                "arena.eqg", "arena2.eqg", "arena2.zon", "arena2_EnvironmentEmitters.txt",
-                "arena2_chr.txt", "arena_EnvironmentEmitters.txt", "highpasshold.eqg",
-                "highpasshold.zon", "highpasshold_EnvironmentEmitters.txt", "lavastorm.emt",
-                "lavastorm.eqg", "lavastorm.mp3", "lavastorm_EnvironmentEmitters.txt",
-                "lavastorm_chr.txt", "nektulos.eqg", "nektulos_EnvironmentEmitters.txt",
-                "nro_assets.txt", "fieldofbone_environmentemitters.txt"
-            ]
-            
-            game_path = Path(self.game_path.get())
-            found_old_files = [f for f in files_to_delete if (game_path / f).exists()]
-            
-            if found_old_files:
-                self.log_message(f"Found {len(found_old_files)} old files that will be deleted during patching", "WARNING")
-            
             # Download manifest file from GitHub
             self.log_message(f"Fetching manifest...")
             
@@ -322,6 +362,36 @@ class RNGPPatcher:
                 with urllib.request.urlopen(manifest_url, timeout=10) as response:
                     manifest_data = response.read().decode()
                 manifest = json.loads(manifest_data)
+            
+            # Check for old files that will be deleted (smart check with hashes)
+            files_to_check = [
+                "arena.eqg", "arena2.eqg", "arena2.zon", "arena2_EnvironmentEmitters.txt",
+                "arena2_chr.txt", "arena_EnvironmentEmitters.txt", "bazaar.eqg","highpasshold.eqg",
+                "highpasshold.zon", "highpasshold_EnvironmentEmitters.txt", "lavastorm.emt",
+                "lavastorm.eqg", "lavastorm.mp3", "lavastorm_EnvironmentEmitters.txt",
+                "lavastorm_chr.txt", "nektulos.eqg", "nektulos_EnvironmentEmitters.txt",
+                "nro_assets.txt", "fieldofbone_environmentemitters.txt"
+            ]
+            
+            game_path = Path(self.game_path.get())
+            manifest_files = {f['path']: f for f in manifest.get('files', [])}
+            found_old_files = []
+            
+            for filename in files_to_check:
+                file_path = game_path / filename
+                if file_path.exists():
+                    if filename in manifest_files:
+                        # Check hash
+                        local_hash = self._calculate_md5(file_path)
+                        manifest_hash = manifest_files[filename].get('md5', '')
+                        if local_hash != manifest_hash:
+                            found_old_files.append(filename)
+                    else:
+                        # Not in manifest - obsolete
+                        found_old_files.append(filename)
+            
+            if found_old_files:
+                self.log_message(f"Found {len(found_old_files)} old files that will be deleted during patching", "WARNING")
             
             # Get list of files that need updating
             files_to_update = self._compare_files(manifest)
@@ -435,15 +505,17 @@ class RNGPPatcher:
         thread.daemon = True
         thread.start()
     
-    def _delete_old_files(self):
-        """Delete specific old files before patching"""
-        files_to_delete = [
+    def _delete_old_files(self, manifest):
+        """Delete specific old files before patching if they don't match the manifest"""
+        # Files that were replaced/updated and should be checked
+        files_to_check = [
             "arena.eqg",
             "arena2.eqg",
             "arena2.zon",
             "arena2_EnvironmentEmitters.txt",
             "arena2_chr.txt",
             "arena_EnvironmentEmitters.txt",
+            "bazaar.eqg",
             "highpasshold.eqg",
             "highpasshold.zon",
             "highpasshold_EnvironmentEmitters.txt",
@@ -461,17 +533,38 @@ class RNGPPatcher:
         game_path = Path(self.game_path.get())
         deleted_count = 0
         
+        # Build a dict of manifest files for quick lookup
+        manifest_files = {f['path']: f for f in manifest.get('files', [])}
+        
         self.log_message("Checking for old files to delete...")
         
-        for filename in files_to_delete:
+        for filename in files_to_check:
             file_path = game_path / filename
             if file_path.exists():
-                try:
-                    file_path.unlink()
-                    self.log_message(f"Deleted: {filename}", "SUCCESS")
-                    deleted_count += 1
-                except Exception as e:
-                    self.log_message(f"Failed to delete {filename}: {e}", "WARNING")
+                # Check if this file is in the manifest
+                if filename in manifest_files:
+                    # File is in manifest - check if hash matches
+                    local_hash = self._calculate_md5(file_path)
+                    manifest_hash = manifest_files[filename].get('md5', '')
+                    
+                    if local_hash != manifest_hash:
+                        # Hash doesn't match - delete the old version
+                        try:
+                            file_path.unlink()
+                            self.log_message(f"Deleted old version: {filename}", "SUCCESS")
+                            deleted_count += 1
+                        except Exception as e:
+                            self.log_message(f"Failed to delete {filename}: {e}", "WARNING")
+                    # else: Hash matches - this is the correct version, keep it silently
+                else:
+                    # File not in manifest - it's obsolete, delete it
+                    self.log_message(f"File {filename} not in manifest - deleting obsolete file")
+                    try:
+                        file_path.unlink()
+                        self.log_message(f"Deleted obsolete file: {filename}", "SUCCESS")
+                        deleted_count += 1
+                    except Exception as e:
+                        self.log_message(f"Failed to delete {filename}: {e}", "WARNING")
         
         if deleted_count > 0:
             self.log_message(f"Deleted {deleted_count} old files", "SUCCESS")
@@ -481,9 +574,6 @@ class RNGPPatcher:
     def _patch_thread(self):
         """Thread worker for patching"""
         try:
-            # Delete old files first
-            self._delete_old_files()
-            
             # Download manifest from GitHub
             self.log_message(f"Downloading manifest...")
             
@@ -506,6 +596,9 @@ class RNGPPatcher:
                 with urllib.request.urlopen(manifest_url, timeout=10) as response:
                     manifest_data = response.read().decode()
                 manifest = json.loads(manifest_data)
+            
+            # Delete old files first (now checks hashes before deleting)
+            self._delete_old_files(manifest)
             
             # Get files to update
             files_to_update = self._compare_files(manifest)
@@ -576,6 +669,7 @@ class RNGPPatcher:
             if not result:
                 return
         
+        self.stop_music()
         self.root.quit()
 
 def main():

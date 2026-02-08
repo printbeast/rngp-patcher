@@ -7,37 +7,64 @@ echo RNGP Patcher - Build Script
 echo ========================================
 echo.
 
-REM Check if Python is installed
+REM Check if Python is installed - try multiple commands
+set PYTHON_CMD=
 echo Checking for Python installation...
+
 python --version >nul 2>&1
-if errorlevel 1 (
-    echo ERROR: Python is not installed or not in PATH
-    echo.
-    echo The build script requires Python to be installed and in your PATH.
-    echo.
-    echo Common solutions:
-    echo 1. Install Python from python.org (recommended)
-    echo    - Download from: https://python.org/downloads/
-    echo    - During installation, make sure to check "Add Python to PATH"
-    echo 2. If Python is installed but not in PATH:
-    echo    - Add Python directory to your system PATH environment variable
-    echo    - Common Python locations:
-    echo      C:\Python313\
-    echo      C:\Users\[username]\AppData\Local\Programs\Python\Python313\
-    echo      C:\Users\[username]\AppData\Local\Microsoft\WindowsApps\
-    echo 3. Verify Python installation:
-    echo    - Open a NEW command prompt
-    echo    - Run: python --version
-    echo    - If this fails, Python is not properly installed or in PATH
-    echo.
-    echo For portable Python solutions, see BUILD_SOLUTION.md
-    echo.
-    pause
-    exit /b 1
+if not errorlevel 1 (
+    set PYTHON_CMD=python
+    goto :python_found
 )
 
+python3 --version >nul 2>&1
+if not errorlevel 1 (
+    set PYTHON_CMD=python3
+    goto :python_found
+)
+
+py --version >nul 2>&1
+if not errorlevel 1 (
+    set PYTHON_CMD=py
+    goto :python_found
+)
+
+py -3 --version >nul 2>&1
+if not errorlevel 1 (
+    set PYTHON_CMD=py -3
+    goto :python_found
+)
+
+REM If we get here, Python wasn't found
+echo ERROR: Python is not installed or not in PATH
+echo.
+echo The build script requires Python to be installed and in your PATH.
+echo.
+echo Common solutions:
+echo 1. Install Python from python.org (recommended)
+echo    - Download from: https://python.org/downloads/
+echo    - During installation, make sure to check "Add Python to PATH"
+echo 2. If Python is installed but not in PATH:
+echo    - Add Python directory to your system PATH environment variable
+echo    - Common Python locations:
+echo      C:\Python313\
+echo      C:\Users\[username]\AppData\Local\Programs\Python\Python313\
+echo      C:\Users\[username]\AppData\Local\Microsoft\WindowsApps\
+echo 3. Verify Python installation:
+echo    - Open a NEW command prompt
+echo    - Run: python --version
+echo    - If this fails, Python is not properly installed or in PATH
+echo.
+pause
+exit /b 1
+
+:python_found
+echo Found Python: %PYTHON_CMD%
+%PYTHON_CMD% --version
+echo.
+
 echo [1/5] Installing dependencies...
-python -m pip install -r requirements.txt
+%PYTHON_CMD% -m pip install -r requirements.txt
 if errorlevel 1 (
     echo ERROR: Failed to install dependencies
     pause
@@ -46,7 +73,7 @@ if errorlevel 1 (
 
 echo.
 echo [2/5] Converting logo to ICO format...
-python convert_logo.py
+%PYTHON_CMD% convert_logo.py
 if errorlevel 1 (
     echo WARNING: Could not convert logo to ICO (will use PNG only)
 )
@@ -60,7 +87,7 @@ if exist "RNGP_Patcher.exe" del /f "RNGP_Patcher.exe"
 echo.
 echo [4/5] Building standalone executable...
 echo This may take a few minutes...
-python -m PyInstaller rngp_patcher.spec --clean
+%PYTHON_CMD% -m PyInstaller rngp_patcher.spec --clean
 if errorlevel 1 (
     echo ERROR: Build failed
     pause

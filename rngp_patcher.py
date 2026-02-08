@@ -36,7 +36,7 @@ class RNGPPatcher:
     def __init__(self, root):
         self.root = root
         self.root.title("RNGP - A Random Loot Progression Server - Game Patcher")
-        self.root.geometry("700x600")
+        self.root.geometry("700x680")
         self.root.resizable(False, False)
         
         # Set icon (will be embedded in exe)
@@ -62,7 +62,7 @@ class RNGPPatcher:
         """Create the main user interface"""
         
         # ===== Header Frame with Logo =====
-        header_frame = tk.Frame(self.root, bg="#1a1a2e", height=200)
+        header_frame = tk.Frame(self.root, bg="#1a1a2e", height=260)
         header_frame.pack(fill=tk.X, side=tk.TOP)
         header_frame.pack_propagate(False)
         
@@ -72,10 +72,10 @@ class RNGPPatcher:
             logo_path = self.resource_path("RNGP_Logo.png")
             logo_image = Image.open(logo_path)
             # Resize to fit header
-            logo_image = logo_image.resize((650, 180), Image.Resampling.LANCZOS)
+            logo_image = logo_image.resize((700, 260), Image.Resampling.LANCZOS)
             self.logo_photo = ImageTk.PhotoImage(logo_image)
             logo_label = tk.Label(header_frame, image=self.logo_photo, bg="#1a1a2e")
-            logo_label.pack(pady=10)
+            logo_label.pack()
         except Exception as e:
             # Fallback if logo can't be loaded
             title_label = tk.Label(
@@ -157,7 +157,7 @@ class RNGPPatcher:
             fg="white",
             font=("Arial", 10, "bold"),
             padx=20,
-            pady=8,
+            pady=12,
             cursor="hand2"
         )
         check_btn.pack(side=tk.LEFT, padx=5)
@@ -171,7 +171,7 @@ class RNGPPatcher:
             fg="white",
             font=("Arial", 10, "bold"),
             padx=30,
-            pady=8,
+            pady=12,
             cursor="hand2"
         )
         self.patch_btn.pack(side=tk.LEFT, expand=True, padx=5)
@@ -185,7 +185,7 @@ class RNGPPatcher:
             fg="white",
             font=("Arial", 10, "bold"),
             padx=20,
-            pady=8,
+            pady=12,
             cursor="hand2"
         )
         exit_btn.pack(side=tk.RIGHT, padx=5)

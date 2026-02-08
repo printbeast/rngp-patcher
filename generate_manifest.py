@@ -13,8 +13,8 @@ from datetime import datetime
 
 def calculate_md5(filepath):
     """Calculate MD5 hash of a file"""
-    # For text files, we want to normalize line endings to LF before hashing
-    # to match what GitHub does with text=auto eol=lf
+    # Define text file extensions that should have line ending normalization
+    # These are files where Git might normalize line endings
     text_extensions = {'.txt', '.md', '.cfg', '.emt', '.map', '.eff', '.ini', '.opt', '.edd', '.zon', '.xmi'}
     
     hash_md5 = hashlib.md5()
@@ -26,7 +26,7 @@ def calculate_md5(filepath):
                 content = f.read().replace('\r\n', '\n')
                 hash_md5.update(content.encode('utf-8'))
         else:
-            # Binary mode for everything else
+            # Binary mode for everything else (images, audio, executables, etc.)
             with open(filepath, "rb") as f:
                 for chunk in iter(lambda: f.read(4096), b""):
                     hash_md5.update(chunk)
@@ -140,8 +140,8 @@ def generate_manifest(source_folder, base_url_path="https://raw.githubuserconten
         print()
         print("Next steps:")
         print("1. Review the generated patch_manifest.json")
-        print("2. Upload all files to your Wasabi S3 bucket")
-        print("3. Upload patch_manifest.json to bucket root")
+        print("2. Upload all files to your GitHub repository")
+        print("3. Upload patch_manifest.json to repository root")
         print("4. Test the patcher!")
         print()
 

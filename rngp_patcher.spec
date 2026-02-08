@@ -9,6 +9,7 @@ a = Analysis(
     datas=[
         ('RNGP_Logo.png', '.'),
         ('RNGP_Logo.ico', '.'),
+        ('RNGP_Banner.png', '.'),
         ('patcher.mp3', '.'),
     ],
     hiddenimports=[],

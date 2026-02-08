@@ -30,12 +30,11 @@ except ImportError:
 
 # GitHub Configuration
 # IMPORTANT: Update these values with your GitHub repository details
-# For local development, we'll use the local manifest file
 GITHUB_CONFIG = {
     "repo_owner": "printbeast",             # Your GitHub username
     "repo_name": "rngp-patcher",            # Your repository name
-    "manifest_url": "patch_manifest.json"   # Local manifest file for development
-    # The manifest will contain direct download URLs to your GitHub Releases
+    "manifest_url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_manifest.json"
+    # The manifest contains direct download URLs to your GitHub files
 }
 
 class RNGPPatcher:
@@ -100,7 +99,7 @@ class RNGPPatcher:
         # Load and display logo
         try:
             from PIL import Image, ImageTk
-            logo_path = self.resource_path("RNGP_Logo.png")
+            logo_path = self.resource_path("RNGP_Banner.png")
             logo_image = Image.open(logo_path)
             # Resize to fit header
             logo_image = logo_image.resize((700, 260), Image.Resampling.LANCZOS)
@@ -366,7 +365,7 @@ class RNGPPatcher:
             # Check for old files that will be deleted (smart check with hashes)
             files_to_check = [
                 "arena.eqg", "arena2.eqg", "arena2.zon", "arena2_EnvironmentEmitters.txt",
-                "arena2_chr.txt", "arena_EnvironmentEmitters.txt", "bazaar.eqg","highpasshold.eqg",
+                "arena2_chr.txt", "arena_EnvironmentEmitters.txt", "highpasshold.eqg",
                 "highpasshold.zon", "highpasshold_EnvironmentEmitters.txt", "lavastorm.emt",
                 "lavastorm.eqg", "lavastorm.mp3", "lavastorm_EnvironmentEmitters.txt",
                 "lavastorm_chr.txt", "nektulos.eqg", "nektulos_EnvironmentEmitters.txt",
@@ -515,7 +514,6 @@ class RNGPPatcher:
             "arena2_EnvironmentEmitters.txt",
             "arena2_chr.txt",
             "arena_EnvironmentEmitters.txt",
-            "bazaar.eqg",
             "highpasshold.eqg",
             "highpasshold.zon",
             "highpasshold_EnvironmentEmitters.txt",

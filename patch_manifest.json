@@ -328,8 +328,8 @@
     {
       "path": "eqclient.ini",
       "url": "https://raw.githubusercontent.com/printbeast/rngp-patcher/master/patch_files/eqclient.ini",
-      "size": 11079,
-      "md5": "3e4c4d403e83cfec31291809c64673ee",
+      "size": 10494,
+      "md5": "e7644c4fb07037dceb34b98a0b3f72f6",
       "description": "eqclient.ini"
     },
     {
